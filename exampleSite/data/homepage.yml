@@ -60,7 +60,7 @@ education:
     year: "2012"
     academy: The Air Force School, New Delhi, IN
 service:
-  enable: true
+  enable: false
   title: Education
   item:
   - title: Master of Science in Information Networking (Computer Systems)
