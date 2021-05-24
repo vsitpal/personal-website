@@ -1,5 +1,4 @@
 +++
-draft = true
 email = "vikramraj[dot]sitpal[at]yahoo[dot]com"
 image = "/images/me.JPG"
 social = []
