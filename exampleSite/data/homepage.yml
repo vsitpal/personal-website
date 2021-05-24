@@ -54,6 +54,10 @@ experience:
     title: System Software Engineering Intern
     company: Nvidia
     duration: May 2020 - August 2020
+  - logo: "/images/cmu.jpg"
+    title: Graduate Teaching Assistant and Research Assistant (CMU PDL)
+    company: Carnegie Mellon University
+    duration: May 2020 - May 2021
   - logo: "/images/oracle.png"
     title: Senior Member of Technical Staff
     company: Oracle
