@@ -79,51 +79,34 @@ education:
 service:
   enable: false
   title: Education
-  item:
-  - title: Master of Science in Information Networking (Computer Systems)
-    icon: "/images/cmu.png"
-    content: |-
-      Carnegie Mellon University, Pittsburgh, PA
-      2019 - 2021
-    highlighted: true
-  - title: UX Design
-    icon: ti-vector
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    highlighted: true
-  - title: Interaction Design
-    icon: ti-panel
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    highlighted: false
+  item: []
 portfolio:
   enable: true
   title: Portfolio
   item_show: "5"
 testimonial:
   enable: true
-  title: Awards and Accomplishments
+  title: Professor Recommendations
   item:
-  - name: INI, Carnegie Mellon University
-    image: images/testimonial/client-1.png
-    designation: College of Engineering
-    content: ''
-  - name: Shirley Scot
-    image: images/testimonial/client-1.png
-    designation: CEO, Funder
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit
-      esse cillum dolore eu fugiat nulla pariatur.
-  - name: Jessica Julie
-    image: images/testimonial/client-1.png
-    designation: CEO, Funder
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit
-      esse cillum dolore eu fugiat nulla pariatur.
+  - name: Patrick Tague
+    image: "/images/tague.jpg"
+    designation: 'Associate Teaching Professor, Information Networking Institute Associate
+      Director, Information Networking Institute '
+    content: 'For Outstanding Graduate TA Award: "Xinhao, Abhilasha, and Vikramraj
+      are truly a dynamic team with serious expertise and dedication to improving
+      the quality of education and student experience at the INI…They didn’t just
+      help the students; they worked with the students in a way that allowed for discovery
+      and learning."'
+  - name: Aleecia M. McDonald
+    image: images/am40.jpg
+    designation: Assistant Professor of the Practice, Information Networking Institute
+    content: 'For Innocent Habiyaremye Memorial Award: "What sets Vikram apart is
+      his kindness and caring for others. While going through so much himself, he
+      mentors incoming students and is regularly a guest on Jennifer''s calls for
+      admitted MSINs…Vikram continues to help while India battles the pandemic, and
+      along with his family, sponsors school lunches for four students. His future
+      plans include tutoring students for standardized tests—not for payment, but
+      for contributions to NGOs in India."'
 clients_logo_slider:
   enable: false
   item:
