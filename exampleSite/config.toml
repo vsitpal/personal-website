@@ -24,7 +24,7 @@ email = "vikramraj[dot]sitpal[at]yahoo[dot]com"
 google_analytics_id = ""
 home = "Home"
 logo = ""
-phone = ""
+phone = "Please email me instead! :)"
 theme_color = "#41228e"
 [params.contact]
 enable = true
@@ -57,6 +57,9 @@ link = "plugins/google-map/map.js"
 [params.preloader]
 enable = true
 preloader = "images/preloader.gif"
+[[params.social]]
+URL = "#https://github.com/vikramrajsitpal"
+icon = "ti-github"
 [[params.social]]
 URL = "#https://www.facebook.com/sitpalvikramraj"
 icon = "ti-facebook"
