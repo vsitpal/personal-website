@@ -17,13 +17,13 @@ skill:
   item:
   - title: Distributed and Storage Systems
     progress: 70%
-    color: ''
+    color: "#94f799"
   - title: Network Systems
     progress: 70%
-    color: ''
+    color: "#f03050"
   - title: Embedded Systems
     progress: 70%
-    color: ''
+    color: "#eb8ef5"
   - title: OS Kernel Development
     progress: 75%
     color: "#88d198"
