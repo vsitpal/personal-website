@@ -3,6 +3,10 @@ email = "vikramraj[dot]sitpal[at]yahoo[dot]com"
 image = "/images/me.JPG"
 social = []
 title = "Vikramraj Sitpal"
+[menu.main]
+URL = "about"
+name = "About"
+weight = 1
 
 +++
 I am about to graduate from CMU (Pittsburgh) specialising in Computer Systems and computer security with basic knowledge of machine learning. I'll soon be joining Oracle's Virtual OS team as SMTS.  
