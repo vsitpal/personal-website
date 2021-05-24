@@ -2,7 +2,7 @@ baseURL = "https://vikramrajsitpal.netlify.app"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "Personal Website"
+title = "Vikram's Den"
 [[menu.main]]
 URL = "contact"
 name = "Contact"
