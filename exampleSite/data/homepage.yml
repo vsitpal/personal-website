@@ -135,5 +135,5 @@ clients_logo_slider:
     URL: ''
   title: Photo Gallery
 blog:
-  enable: true
+  enable: false
   title: Photo Gallery
