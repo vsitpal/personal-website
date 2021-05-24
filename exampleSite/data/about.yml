@@ -20,11 +20,17 @@ work_process:
       2012
 team:
   enable: true
-  title: Photo Gallery
+  title: My Wall
   team_member:
-  - title: Vikram
+  - title: Outstanding Student Service Award for a Teaching Assistant
+    image: "/images/acc2.png"
+    designation: Nominated by Patrick Tague
+  - title: Innocent Habiyaremye Memorial Award
+    image: "/images/acc1.png"
+    designation: Nominated by Aleecia M. McDonald
+  - title: CMU Graduation '21
     image: "/images/new.jpg"
-    designation: CMU Graduation '21
+    designation: ''
 clients_logo_slider:
   enable: false
   title: Photo Gallery
