@@ -8,15 +8,15 @@ work_process:
     content: |-
       Master of Science in Information Networking (Computer Systems)
       2019-2021
-  - title: Vellore Institute of Technology
+  - title: Vellore Institute of Technology, Vellore, IN
     icon: images/vit.jpg
     content: |-
       Bachelor of Technology in Computer Science and Engineering
       2012-2016
-  - title: All India Senior School Certificate (High School)
+  - title: The Air Force School, New Delhi, IN
     icon: images/tafs.png
     content: |-
-      The Air Force School, New Delhi, IN
+      All India Senior School Certificate (High School)
       2012
 team:
   enable: false
