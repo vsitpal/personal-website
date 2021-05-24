@@ -13,8 +13,20 @@ about:
     URL: about
 skill:
   enable: true
-  title: Programming Languages
+  title: Skills
   item:
+  - title: Distributed and Storage Systems
+    progress: 70%
+    color: ''
+  - title: Network Systems
+    progress: 70%
+    color: ''
+  - title: Embedded Systems
+    progress: 70%
+    color: ''
+  - title: OS Kernel Development
+    progress: 75%
+    color: "#88d198"
   - title: Rust
     progress: 20%
     color: "#FF5733"
@@ -47,7 +59,7 @@ experience:
     company: Oracle
     duration: Tentative Start - July 2021
 education:
-  enable: true
+  enable: false
   title: Education
   item:
   - title: Master of Science in Information Networking (Computer Systems)
