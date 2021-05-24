@@ -37,3 +37,7 @@ clients_logo_slider:
   item:
   - logo: "/images/new.jpg"
     URL: ''
+menu:
+  main:
+    name: About
+    weight: 1

@@ -120,7 +120,3 @@ clients_logo_slider:
 blog:
   enable: false
   title: Photo Gallery
-menu:
-  main:
-    name: About
-    weight: 1
