@@ -96,17 +96,13 @@ portfolio:
   title: Portfolio
   item_show: "5"
 testimonial:
-  enable: false
-  title: Testimonials
+  enable: true
+  title: Awards and Accomplishments
   item:
-  - name: Jesica Gomez
+  - name: INI, Carnegie Mellon University
     image: images/testimonial/client-1.png
-    designation: CEO, Funder
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit
-      esse cillum dolore eu fugiat nulla pariatur.
+    designation: College of Engineering
+    content: ''
   - name: Shirley Scot
     image: images/testimonial/client-1.png
     designation: CEO, Funder
