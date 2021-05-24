@@ -4,21 +4,17 @@ summaryLength = "10"
 theme = "kross-hugo"
 title = "Personal Website"
 [[menu.main]]
-URL = "about"
-name = "About"
-weight = 1
-[[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 2
+URL = "contact"
+name = "Contact"
+weight = 3
 [[menu.main]]
 URL = "portfolio"
 name = "Portfolio"
-weight = 3
+weight = 2
 [[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 4
+URL = "about"
+name = "About"
+weight = 1
 [params]
 address = "125/A, CA Commercial Area, California, USA"
 author = "Johnathan Smith"
