@@ -32,8 +32,8 @@ team:
     image: images/team/member-3.png
     designation: Designer
 clients_logo_slider:
-  enable: false
-  title: My Clients
+  enable: true
+  title: Photo Gallery
   item:
-  - logo: ''
+  - logo: "/images/new.jpg"
     URL: ''
