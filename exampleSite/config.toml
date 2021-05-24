@@ -1,6 +1,6 @@
 baseURL = "https://vikramrajsitpal.netlify.app"
 languageCode = "en-us"
-summaryLength = "10"
+summaryLength = "70"
 theme = "kross-hugo"
 title = "Vikram's Den"
 [[menu.main]]
@@ -16,17 +16,17 @@ address = "Pittsburgh, PA"
 author = "Vikramraj Sitpal"
 copyright = "Copyright &copy; 2021 Vikramraj Sitpal"
 description = "Vikramraj Sitpal's Personal Website"
-email = "vikramraj[dot]sitpal[at]yahoo[dot]com"
+email = ""
 google_analytics_id = ""
 home = "Home"
-logo = ""
-phone = "+0-000-000-0000"
+logo = "/images/gopher.png"
+phone = ""
 theme_color = "#41228e"
 [params.contact]
 enable = true
 form_action = "https://formspree.io/f/mjvjwbqd"
 [params.cookies]
-enable = true
+enable = false
 expire_days = 2
 [params.map]
 enable = false
