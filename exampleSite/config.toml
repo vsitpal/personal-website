@@ -1,6 +1,6 @@
 baseURL = "https://vikramrajsitpal.netlify.app"
 languageCode = "en-us"
-summaryLength = "70"
+summaryLength = "10"
 theme = "kross-hugo"
 title = "Vikram's Den"
 [[menu.main]]
