@@ -3,12 +3,11 @@ banner:
   title: Hello World! <br> I’m Vikram. <br> (Computer) Systems Developer
 about:
   enable: true
-  content: |-
-    I am a post-graduate from CMU (Pittsburgh) specialising in Computer Systems and computer security with basic knowledge of machine learning.
-
-    I'm mainly interested in operating systems, storage systems, networks and distributed systems research and development.
-
-    My long term plan (in action) is to contribute to open-source projects and be an active part of the OSS community.
+  content: I am a post-graduate from CMU (Pittsburgh) specialising in Computer Systems
+    and computer security with basic knowledge of machine learning. I'm mainly interested
+    in operating systems, storage systems, networks and distributed systems research
+    and development. My long term plan (in action) is to contribute to open-source
+    projects and be an active part of the OSS community.
   button:
     enable: true
     label: Read more...
