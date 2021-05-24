@@ -30,7 +30,7 @@ team:
     designation: Nominated by Aleecia M. McDonald
   - title: CMU Graduation '21
     image: "/images/new.jpg"
-    designation: ''
+    designation: 'Picture taken by: Sara'
 clients_logo_slider:
   enable: false
   title: Photo Gallery
@@ -40,4 +40,4 @@ clients_logo_slider:
 menu:
   main:
     name: About
-    weight: 1
+    weight: "1"
