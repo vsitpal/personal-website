@@ -4,7 +4,7 @@ work_process:
   title: Education
   item:
   - title: Carnegie Mellon University, Pittsburgh, PA
-    icon: images/cmu.png
+    icon: "/images/cmu.jpg"
     content: |-
       Master of Science in Information Networking (Computer Systems)
       2019-2021
