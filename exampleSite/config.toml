@@ -4,6 +4,10 @@ summaryLength = "10"
 theme = "kross-hugo"
 title = "Vikram's Den"
 [[menu.main]]
+URL = "about"
+name = "About"
+weight = "1"
+[[menu.main]]
 URL = "contact"
 name = "Contact"
 weight = 3
