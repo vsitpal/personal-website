@@ -19,12 +19,12 @@ weight = 1
 address = "Pittsburgh, PA"
 author = "Vikramraj Sitpal"
 copyright = "Copyright &copy; 2021 Vikramraj Sitpal"
-description = "This is meta description"
+description = "Vikramraj Sitpal's Personal Website"
 email = "vikramraj[dot]sitpal[at]yahoo[dot]com"
 google_analytics_id = ""
 home = "Home"
 logo = ""
-phone = "Please email me instead! :)"
+phone = "Please email me instead!"
 theme_color = "#41228e"
 [params.contact]
 enable = true
