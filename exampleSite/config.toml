@@ -16,15 +16,15 @@ URL = "about"
 name = "About"
 weight = 1
 [params]
-address = "125/A, CA Commercial Area, California, USA"
-author = "Johnathan Smith"
-copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+address = "Pittsburgh, PA"
+author = "Vikramraj Sitpal"
+copyright = "Copyright &copy; 2021 Vikramraj Sitpal"
 description = "This is meta description"
-email = "steve.fruits@email.com"
+email = "vikramraj[dot]sitpal[at]yahoo[dot]com"
 google_analytics_id = ""
 home = "Home"
 logo = ""
-phone = "+880 2544 658 256"
+phone = ""
 theme_color = "#41228e"
 [params.contact]
 enable = true
@@ -35,8 +35,8 @@ expire_days = 2
 [params.map]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+map_latitude = "40.440624"
+map_longitude = "-79.995888"
 map_marker = "images/marker.png"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
@@ -58,14 +58,11 @@ link = "plugins/google-map/map.js"
 enable = true
 preloader = "images/preloader.gif"
 [[params.social]]
-URL = "#"
+URL = "#https://www.facebook.com/sitpalvikramraj"
 icon = "ti-facebook"
 [[params.social]]
-URL = "#"
+URL = "#https://www.instagram.com/vikramrajsitpal"
 icon = "ti-instagram"
 [[params.social]]
-URL = "#"
-icon = "ti-dribbble"
-[[params.social]]
-URL = "#"
+URL = "#https://www.twitter.com/chaklu"
 icon = "ti-twitter-alt"
