@@ -126,7 +126,7 @@ testimonial:
       consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit
       esse cillum dolore eu fugiat nulla pariatur.
 clients_logo_slider:
-  enable: true
+  enable: false
   item:
   - logo: "/images/back.JPG"
     URL: ''
@@ -136,5 +136,5 @@ clients_logo_slider:
     URL: ''
   title: Photo Gallery
 blog:
-  enable: false
-  title: Blogs
+  enable: true
+  title: Photo Gallery
