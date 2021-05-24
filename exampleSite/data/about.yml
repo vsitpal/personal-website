@@ -1,19 +1,23 @@
 ---
 work_process:
   enable: true
-  title: Work Process
+  title: Education
   item:
-  - title: Education
+  - title: Carnegie Mellon University, Pittsburgh, PA
     icon: images/cmu.png
-    content: CMU
-  - title: Design and Develop
-    icon: images/icons/design.png
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-  - title: Deliver
-    icon: images/icons/print.png
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+    content: |-
+      Master of Science in Information Networking (Computer Systems)
+      2019-2021
+  - title: Vellore Institute of Technology
+    icon: images/vit.jpg
+    content: |-
+      Bachelor of Technology in Computer Science and Engineering
+      2012-2016
+  - title: All India Senior School Certificate (High School)
+    icon: images/tafs.png
+    content: |-
+      The Air Force School, New Delhi, IN
+      2012
 team:
   enable: false
   title: My Team
