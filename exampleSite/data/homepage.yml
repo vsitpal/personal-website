@@ -7,6 +7,8 @@ about:
     I am a post-graduate from CMU (Pittsburgh) specialising in Computer Systems and computer security with basic knowledge of machine learning.
 
     I'm mainly interested in operating systems, storage systems, networks and distributed systems research and development.
+
+    My long term plan (in action) is to contribute to open-source projects and be an active part of the OSS community.
   button:
     enable: true
     label: Read more...
@@ -44,7 +46,7 @@ skill:
     color: "#ffbcaa"
 experience:
   enable: true
-  title: Experience
+  title: Work Experience
   item:
   - logo: "/images/cisco.png"
     title: Collaboration Solutions Engineer (Automation)
