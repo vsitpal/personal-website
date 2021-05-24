@@ -23,3 +23,5 @@ fields:
   - type: text
     name: link
     label: link
+pages:
+- exampleSite/content/english/author/vikramraj-sitpal.md
