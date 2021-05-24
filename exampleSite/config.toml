@@ -24,7 +24,7 @@ phone = "+0-000-000-0000"
 theme_color = "#41228e"
 [params.contact]
 enable = true
-form_action = "#"
+form_action = "https://formspree.io/f/mjvjwbqd"
 [params.cookies]
 enable = true
 expire_days = 2
