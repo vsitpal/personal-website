@@ -25,7 +25,7 @@ google_analytics_id = ""
 home = "Home"
 logo = "/images/gopher.png"
 phone = ""
-theme_color = "#41228e"
+theme_color = "#116466"
 [params.contact]
 enable = true
 form_action = "https://formspree.io/f/mjvjwbqd"
