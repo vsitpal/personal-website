@@ -5,7 +5,7 @@ about:
   enable: true
   content: |-
     Predominantly a (Computer) Systems developer, but more importantly a human.
-    I am a post-graduate from CMU (Pittsburgh) specialising in Computer Systems and computer security with basic knowledge of machine learning. I'm mainly interested in operating systems, storage systems, networks and distributed systems research and development. My long term plan (in action) is to contribute to open-source projects and be an active part of the OSS community.
+    I am a post-graduate from Carnegie Mellon University (Pittsburgh) specialising in Computer Systems & Security with basic knowledge of Machine Learning and Business Management. I'm mainly interested in Operating systems, Storage systems, Networks and Distributed systems research and development. My long term plan is to contribute to open-source projects and be an active part of the OSS community.
   button:
     enable: true
     label: Read more...
