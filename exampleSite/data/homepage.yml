@@ -88,8 +88,8 @@ testimonial:
   item:
   - name: Patrick Tague
     image: "/images/tague.jpg"
-    designation: 'Associate Teaching Professor, Information Networking Institute Associate
-      Director, Information Networking Institute '
+    designation: Associate Teaching Professor and Associate Director, Information
+      Networking Institute, Carnegie Mellon University
     content: 'For Outstanding Graduate TA Award: "Xinhao, Abhilasha, and Vikramraj
       are truly a dynamic team with serious expertise and dedication to improving
       the quality of education and student experience at the INI…They didn’t just
@@ -97,7 +97,8 @@ testimonial:
       and learning."'
   - name: Aleecia M. McDonald
     image: images/am40.jpg
-    designation: Assistant Professor of the Practice, Information Networking Institute
+    designation: Assistant Professor of the Practice, Information Networking Institute,
+      Carnegie Mellon University
     content: 'For Innocent Habiyaremye Memorial Award: "What sets Vikram apart is
       his kindness and caring for others. While going through so much himself, he
       mentors incoming students and is regularly a guest on Jennifer''s calls for
