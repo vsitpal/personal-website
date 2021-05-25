@@ -5,13 +5,13 @@ work_process:
   item:
   - title: Carnegie Mellon University, Pittsburgh, PA
     icon: "/images/cmu.jpg"
-    content: Master of Science in Information Networking (Computer Systems) <br>2019-2021
+    content: Master of Science in Information Networking (Computer Systems) [2019-2021]
   - title: Vellore Institute of Technology, Vellore, IN
     icon: images/vit.jpg
-    content: Bachelor of Technology in Computer Science and Engineering <br>2012-2016
+    content: Bachelor of Technology in Computer Science and Engineering [2012-2016]
   - title: The Air Force School, New Delhi, IN
     icon: images/tafs.png
-    content: All India Senior School Certificate (High School) <br>2012
+    content: All India Senior School Certificate [2011-2012]
 team:
   enable: true
   title: My Wall
