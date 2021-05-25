@@ -28,19 +28,19 @@ skill:
     color: "#fd7e14"
   - title: C
     progress: 85%
-    color: "#34ebae"
+    color: "#5f2ef2"
   - title: Rust
     progress: 20%
-    color: "#34ebae"
+    color: "#5f2ef2"
   - title: Python3
     progress: 85%
-    color: "#34ebae"
+    color: "#5f2ef2"
   - title: Go
     progress: 70%
-    color: "#34ebae"
+    color: "#5f2ef2"
   - title: C++
     progress: 60%
-    color: "#34ebae"
+    color: "#5f2ef2"
   - title: Git
     progress: 80%
     color: "#ffee03"
