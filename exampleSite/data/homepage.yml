@@ -1,6 +1,6 @@
 ---
 banner:
-  title: Hello World! <br> I’m Vikram.
+  title: "<br>Hello World!<br>I’m Vikram."
 about:
   enable: true
   content: |-
