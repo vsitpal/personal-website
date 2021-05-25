@@ -16,34 +16,34 @@ skill:
   item:
   - title: OS Kernel Development
     progress: 75%
-    color: "#88d198"
+    color: "#fd7e14"
   - title: Distributed and Storage Systems
     progress: 70%
-    color: "#94f799"
+    color: "#fd7e14"
   - title: Embedded Systems
     progress: 70%
-    color: "#eb8ef5"
+    color: "#fd7e14"
   - title: Network Systems
     progress: 70%
-    color: "#f03050"
-  - title: Git
-    progress: 80%
-    color: "#eb8f34"
+    color: "#fd7e14"
   - title: C
     progress: 85%
-    color: "#fdb157"
+    color: "#34ebae"
   - title: Rust
     progress: 20%
-    color: "#FF5733"
+    color: "#34ebae"
   - title: Python3
-    progress: 80%
-    color: "#bdecf6"
+    progress: 85%
+    color: "#34ebae"
   - title: Go
     progress: 70%
-    color: "#ffbcaa"
+    color: "#34ebae"
   - title: C++
     progress: 60%
-    color: "#9473e6"
+    color: "#34ebae"
+  - title: Git
+    progress: 80%
+    color: "#ffee03"
 experience:
   enable: true
   title: Work Experience
