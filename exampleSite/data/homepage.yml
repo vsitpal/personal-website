@@ -14,33 +14,36 @@ skill:
   enable: true
   title: Skills
   item:
-  - title: Distributed and Storage Systems
-    progress: 70%
-    color: "#94f799"
-  - title: Network Systems
-    progress: 70%
-    color: "#f03050"
-  - title: Embedded Systems
-    progress: 70%
-    color: "#eb8ef5"
   - title: OS Kernel Development
     progress: 75%
     color: "#88d198"
-  - title: Rust
-    progress: 20%
-    color: "#FF5733"
+  - title: Distributed and Storage Systems
+    progress: 70%
+    color: "#94f799"
+  - title: Embedded Systems
+    progress: 70%
+    color: "#eb8ef5"
+  - title: Network Systems
+    progress: 70%
+    color: "#f03050"
+  - title: Git
+    progress: 80%
+    color: "#eb8f34"
   - title: C
     progress: 85%
     color: "#fdb157"
-  - title: C++
-    progress: 60%
-    color: "#9473e6"
+  - title: Rust
+    progress: 20%
+    color: "#FF5733"
   - title: Python3
     progress: 80%
     color: "#bdecf6"
   - title: Go
     progress: 70%
     color: "#ffbcaa"
+  - title: C++
+    progress: 60%
+    color: "#9473e6"
 experience:
   enable: true
   title: Work Experience
@@ -54,7 +57,8 @@ experience:
     company: Nvidia
     duration: May 2020 - August 2020
   - logo: "/images/cmu_200.jpg"
-    title: Graduate Teaching Assistant and Research Assistant (CMU PDL)
+    title: Teaching Assistant for Introduction to Computer Systems, Teaching Assistant
+      for Distributed Systems and Research Assistant at Parallel Data Lab, CMU
     company: Carnegie Mellon University
     duration: May 2020 - May 2021
   - logo: "/images/oracle.png"
