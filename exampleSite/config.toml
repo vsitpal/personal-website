@@ -23,7 +23,7 @@ description = "Vikramraj Sitpal's Personal Website"
 email = ""
 google_analytics_id = ""
 home = "Home"
-logo = "/images/gopher.png"
+logo = "/images/work-in-progress.png"
 phone = ""
 theme_color = "#116466"
 [params.contact]
