@@ -46,19 +46,19 @@ skill:
     color: "#9b68f2"
   - title: Git
     progress: 80%
-    color: "#328da8"
-  - title: Intel Pin DBI
-    progress: 55%
-    color: "#328da8"
-  - title: " GNS3 and Wireshark"
-    progress: 90%
-    color: "#328da8"
-  - title: GDB, Make, Lex/Yacc
-    progress: 70%
-    color: "#328da8"
+    color: "#78d0eb"
   - title: " Filesystem in Userspace (FUSE)"
     progress: 80%
-    color: "#328da8"
+    color: "#78d0eb"
+  - title: GDB, Make, Lex/Yacc
+    progress: 70%
+    color: "#78d0eb"
+  - title: Intel Pin DBI
+    progress: 55%
+    color: "#78d0eb"
+  - title: " GNS3 and Wireshark"
+    progress: 90%
+    color: "#78d0eb"
 experience:
   enable: true
   title: Work Experience
