@@ -31,22 +31,34 @@ skill:
     color: "#fd7e14"
   - title: C
     progress: 85%
-    color: "#5f2ef2"
+    color: "#9b68f2"
   - title: Rust
     progress: 20%
-    color: "#5f2ef2"
+    color: "#9b68f2"
   - title: Python3
     progress: 85%
-    color: "#5f2ef2"
+    color: "#9b68f2"
   - title: Go
     progress: 70%
-    color: "#5f2ef2"
+    color: "#9b68f2"
   - title: C++
     progress: 60%
-    color: "#5f2ef2"
+    color: "#9b68f2"
   - title: Git
     progress: 80%
-    color: "#ffee03"
+    color: "#328da8"
+  - title: Intel Pin DBI
+    progress: 55%
+    color: "#328da8"
+  - title: " GNS3 and Wireshark"
+    progress: 90%
+    color: "#328da8"
+  - title: GDB, Make, Lex/Yacc
+    progress: 70%
+    color: "#328da8"
+  - title: " Filesystem in Userspace (FUSE)"
+    progress: 80%
+    color: "#328da8"
 experience:
   enable: true
   title: Work Experience
