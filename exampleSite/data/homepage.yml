@@ -15,7 +15,7 @@ skill:
   title: Skills (Systems development)
   item:
   - title: OS Kernel Development
-    progress: 75%
+    progress: 70%
     color: "#fd7e14"
   - title: Distributed and Storage Systems
     progress: 70%
