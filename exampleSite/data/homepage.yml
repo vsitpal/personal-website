@@ -16,19 +16,19 @@ skill:
   item:
   - title: OS Kernel Development
     progress: 70%
-    color: "#fd7e14"
+    color: "#f26d6d"
   - title: Distributed and Storage Systems
     progress: 70%
-    color: "#fd7e14"
+    color: "#f26d6d"
   - title: Embedded Systems
     progress: 70%
-    color: "#fd7e14"
+    color: "#f26d6d"
   - title: Network Systems
     progress: 70%
-    color: "#fd7e14"
+    color: "#f26d6d"
   - title: Database Systems
     progress: 25%
-    color: "#fd7e14"
+    color: "#f26d6d"
   - title: C
     progress: 85%
     color: "#9b68f2"
