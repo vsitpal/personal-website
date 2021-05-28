@@ -103,7 +103,7 @@ portfolio:
   item_show: "5"
 testimonial:
   enable: true
-  title: Professor Recommendations
+  title: Recommendations
   item:
   - name: Patrick Tague
     image: "/images/tague.jpg"
@@ -114,17 +114,6 @@ testimonial:
       the quality of education and student experience at the INI…They didn’t just
       help the students; they worked with the students in a way that allowed for discovery
       and learning."'
-  - name: Aleecia M. McDonald
-    image: images/am40.jpg
-    designation: Assistant Professor of the Practice, Information Networking Institute,
-      Carnegie Mellon University
-    content: 'For Innocent Habiyaremye Memorial Award: "What sets Vikram apart is
-      his kindness and caring for others. While going through so much himself, he
-      mentors incoming students and is regularly a guest on Jennifer''s calls for
-      admitted MSINs…Vikram continues to help while India battles the pandemic, and
-      along with his family, sponsors school lunches for four students. His future
-      plans include tutoring students for standardized tests—not for payment, but
-      for contributions to NGOs in India."'
 clients_logo_slider:
   enable: false
   item:
