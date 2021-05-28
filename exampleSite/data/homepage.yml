@@ -87,7 +87,7 @@ service:
   item: []
 portfolio:
   enable: true
-  title: Portfolio
+  title: Project Portfolio
   item_show: "5"
 testimonial:
   enable: true
