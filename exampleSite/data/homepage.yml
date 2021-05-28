@@ -12,7 +12,7 @@ about:
     URL: about
 skill:
   enable: true
-  title: Skills
+  title: Skills (Systems development)
   item:
   - title: OS Kernel Development
     progress: 75%
@@ -25,6 +25,9 @@ skill:
     color: "#fd7e14"
   - title: Network Systems
     progress: 70%
+    color: "#fd7e14"
+  - title: Database Systems
+    progress: 25%
     color: "#fd7e14"
   - title: C
     progress: 85%
