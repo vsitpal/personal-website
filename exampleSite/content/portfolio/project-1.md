@@ -9,13 +9,12 @@ description: "RTOS Kernel on Cortex M4 STM32"
 draft: false
 ---
 
-Project Requirements 
-===============
+## Project Requirements 
+
 
 Develop a real-time kernel on ARM based chips from scratch capable of admission control, task scheduling, isolation, and synchronization. In simpler terms, this means ensuring tasks are schedulable, actually scheduling tasks on the fly, memory protection (per thread), mutexes and avoiding deadlocks.
 
-Project Details
-===============
+## Project Details
 
 ### RTOS Kernel on STM32 Cortex M4 chip
 
@@ -25,7 +24,7 @@ _Mar 2020 – Apr 2020_
 - Kernel features:
     - Context switching and task management
     - Fixed priority rate-monotonic scheduling using a Priority queue
-    - ßIsolation (using MPU) and real-time synchronization, using Original Priority Ceiling Protocol to avoid unbounded priority inversion and deadlocks 
+    - Isolation (using MPU) and real-time synchronization, using Original Priority Ceiling Protocol to avoid unbounded priority inversion and deadlocks 
 
 
 **Timers, Interrupts and System Calls**
