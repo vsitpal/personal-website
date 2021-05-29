@@ -4,7 +4,7 @@ date: 2020-04-30T00:00:00Z
 image: "/images/arm.jpg"
 client: "Carnegie Mellon University"
 project_url : "Private GitHub repository for academic integrity reasons"
-categories: ["Operating System"]
+categories: ["Operating System", "C"]
 description: "RTOS Kernel on Cortex M4 STM32"
 draft: false
 ---

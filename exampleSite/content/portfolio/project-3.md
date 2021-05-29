@@ -1,30 +1,38 @@
 ---
-title: "Artwork Design"
-date: 2019-05-12T12:14:34+06:00
-image: "images/portfolio/item-3.png"
-client: "John Doe"
-project_url : "https://themefisher.com/"
-categories: ["RANDOM"]
-description: "This is meta description."
+title: "CMU TCP Stack"
+date: 2020-11-18T00:00:00Z
+image: "/images/tcp.jpg"
+client: "Carnegie Mellon University"
+project_url : "Private GitHub repository for academic integrity reasons"
+categories: ["Network Systems", "C"]
+description: "TCP stack with Reno-style CCA"
 draft: false
 ---
 
-#### Project Requirements
+## Project Requirements
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
+- Reasoning about designing end-to-end systems when the underlying network is fundamentally unreliable and disorderly.
+
+- Analyzing a program for performance and fairness, designing ways to improve it, and testing those improvements.
+ 
+- Build our own CMU-TCP using UDP sockets, crafting packets and transmitting them ourselves. UDP will not re-transmit lost packets, and UDP has no controls on how fast we transmit: we augment UDP with these features.
 
 
-#### Project Details
+## Project Details
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+- Implement the TCP Handshake and Teardown - Implement TCP starting handshake and teardown
+handshake before data transmission starts and ends.
+- Implement improved RTT Estimation - You will notice that loss recovery is very slow! One reason
+for this is that it initially uses a fixed retransmission timeout (RTO) of 3 seconds. Implement an
+adaptive RTO by estimating the RTT with Jacobson/Karels Algorithm or using the Karn/Partridge
+algorithm.
+- Use byte-based sequence numbers: Change the sequence numbers and ACK numbers to represent the
+number of bytes sent and received
+- Implement Windowing: Implement TCP’s sliding window algorithm to send a window of packets.
+- Implement duplicate ACK Retransmission - Another reason loss recovery is slow is the starter code
+relies on timeouts to detect packet loss. One way to recover more quickly is to retransmit whenever
+you see triple duplicate ACKs. Implement retransmission on the receipt of 3 duplicate ACKs.
+- Implement Flow Control: Update code to use a receiver’s AdvertisedWindow as maximum
+window size; this field is contained in the CMUTCP Header.
+- Implement Congestion Control: add a new parameter, the congestion window.
+The size of sending window should be the minimum of cwnd and the advertised window.
