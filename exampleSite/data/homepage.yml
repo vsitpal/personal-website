@@ -72,36 +72,27 @@ experience:
   enable: true
   title: Work Experience
   item:
-  - logo: "/images/cisco.png"
-    title: Collaboration Solutions Engineer (Automation)
-    company: Cisco Systems
-    duration: June 2015 - July 2019
-  - logo: "/images/nvidia.png"
-    title: System Software Engineering Intern
-    company: Nvidia
-    duration: May 2020 - August 2020
+  - logo: "/images/oracle.png"
+    title: Senior Member of Technical Staff
+    company: Oracle
+    duration: Tentative Start - July 2021
   - logo: "/images/cmu_200.jpg"
     title: Teaching Assistant for Introduction to Computer Systems, Teaching Assistant
       for Distributed Systems and Research Assistant at Parallel Data Lab, CMU
     company: Carnegie Mellon University
     duration: May 2020 - May 2021
-  - logo: "/images/oracle.png"
-    title: Senior Member of Technical Staff
-    company: Oracle
-    duration: Tentative Start - July 2021
+  - logo: "/images/nvidia.png"
+    title: System Software Engineering Intern
+    company: Nvidia
+    duration: May 2020 - August 2020
+  - logo: "/images/cisco.png"
+    title: Collaboration Solutions Engineer (Automation)
+    company: Cisco Systems
+    duration: June 2015 - July 2019
 education:
   enable: false
   title: Education
-  item:
-  - title: Master of Science in Information Networking (Computer Systems)
-    year: 2019 - 2021
-    academy: Carnegie Mellon University, Pittsburgh, PA
-  - title: Bachelor of Technology in Computer Science and Engineering
-    year: 2012-2016
-    academy: Vellore Institute of Technology, Vellore, IN
-  - title: All India Senior School Certificate (High School)
-    year: "2012"
-    academy: The Air Force School, New Delhi, IN
+  item: []
 service:
   enable: false
   title: Education
@@ -125,13 +116,7 @@ testimonial:
       and learning."'
 clients_logo_slider:
   enable: false
-  item:
-  - logo: "/images/back.JPG"
-    URL: ''
-  - logo: "/images/gopher.png"
-    URL: ''
-  - logo: "/images/new.jpg"
-    URL: ''
+  item: []
   title: Photo Gallery
 blog:
   enable: false
