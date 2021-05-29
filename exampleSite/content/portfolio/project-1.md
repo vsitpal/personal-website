@@ -16,7 +16,7 @@ Develop a real-time kernel on ARM based chips from scratch capable of admission 
 
 ## Project Details
 
-### RTOS Kernel on STM32 Cortex M4 chip
+### RTOS Kernel on STM32 ARM Cortex M4 chip
 
 _Mar 2020 – Apr 2020_
 - Developed a real-time kernel capable of admission control, task scheduling, isolation, and synchronization.
