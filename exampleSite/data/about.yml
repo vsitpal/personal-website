@@ -28,9 +28,7 @@ team:
 clients_logo_slider:
   enable: false
   title: Photo Gallery
-  item:
-  - logo: "/images/new.jpg"
-    URL: ''
+  item: []
 menu:
   main:
     name: About
