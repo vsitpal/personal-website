@@ -4,7 +4,7 @@ date: 2020-08-07T00:00:00Z
 image: "/images/selinux.jpeg"
 client: "NVIDIA"
 project_url : "Private Gerrit Repository with NVIDIA"
-categories: ["Security", "C", "C++"]
+categories: ["System Security", "C", "C++"]
 description: "System Software Engineering Intern at NVIDIA"
 draft: false
 ---

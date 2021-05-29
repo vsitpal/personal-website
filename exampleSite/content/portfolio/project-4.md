@@ -4,7 +4,7 @@ date: 2020-07-28T00:00:00Z
 image: "/images/ydb-contribution.jpg"
 client: "Yugabyte DB"
 project_url : "https://github.com/yugabyte/yugabyte-db/pull/5014"
-categories: ["Database Systems", "C++"]
+categories: ["Database System", "C++"]
 description: "Small and early contribution to open-source software"
 draft: false
 ---

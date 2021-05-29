@@ -4,7 +4,7 @@ date: 2020-11-18T00:00:00Z
 image: "/images/tcp.jpg"
 client: "Carnegie Mellon University"
 project_url : "Private GitHub repository for academic integrity reasons"
-categories: ["Network Systems", "C"]
+categories: ["Network System", "C"]
 description: "TCP stack with Reno-style CCA"
 draft: false
 ---
