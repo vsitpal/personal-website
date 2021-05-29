@@ -1,6 +1,6 @@
 ---
 title: "Yugabyte DB Open Source Project"
-date: 2019-05-12T12:14:34+06:00
+date: 2020-07-28T00:00:00Z
 image: "/images/ydb-contribution.jpg"
 client: "Yugabyte DB"
 project_url : "https://github.com/yugabyte/yugabyte-db/pull/5014"
