@@ -15,19 +15,25 @@ skill:
   title: Skills (Systems development)
   item:
   - title: OS Kernel Development
-    progress: 50%
+    progress: 55%
     color: "#f26d6d"
-  - title: Distributed and Storage Systems
-    progress: 70%
+  - title: Storage Systems
+    progress: 60%
+    color: "#f26d6d"
+  - title: Distributed Systems
+    progress: 60%
     color: "#f26d6d"
   - title: Embedded Systems
-    progress: 70%
+    progress: 60%
     color: "#f26d6d"
   - title: Network Systems
-    progress: 70%
+    progress: 60%
     color: "#f26d6d"
   - title: Database Systems
     progress: 25%
+    color: "#f26d6d"
+  - title: Formal Verification
+    progress: 40%
     color: "#f26d6d"
   - title: C
     progress: 85%
@@ -43,6 +49,9 @@ skill:
     color: "#9b68f2"
   - title: C++
     progress: 60%
+    color: "#9b68f2"
+  - title: Dafny
+    progress: 45%
     color: "#9b68f2"
   - title: Git
     progress: 80%
