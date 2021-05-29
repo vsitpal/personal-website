@@ -9,7 +9,7 @@ description: "Small and early contribution to open-source software"
 draft: false
 ---
 
-#### Project Requirements
+## Project Requirements
 
 Tried my hand at open-source Database contribution. Read guidelines and the design of the system to make a small contribution to the huge code base and test the changes.
 
