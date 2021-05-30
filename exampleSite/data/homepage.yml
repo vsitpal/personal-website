@@ -121,3 +121,7 @@ clients_logo_slider:
 blog:
   enable: true
   title: Systems Druid
+menu:
+  main:
+    name: Blog
+    weight: 3
