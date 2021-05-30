@@ -119,5 +119,5 @@ clients_logo_slider:
   item: []
   title: Photo Gallery
 blog:
-  enable: false
-  title: Photo Gallery
+  enable: true
+  title: Systems Druid
