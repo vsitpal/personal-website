@@ -74,20 +74,20 @@ experience:
   item:
   - logo: "/images/oracle.png"
     title: Senior Member of Technical Staff
-    company: Oracle
-    duration: Tentative Start - July 2021
+    company: Virtual OS (Server Technologies, RDMBS), Oracle
+    duration: 'Tentative start date: July 2021'
   - logo: "/images/cmu_200.jpg"
     title: Teaching Assistant for Introduction to Computer Systems | Teaching Assistant
       for Distributed Systems | Research Assistant at Parallel Data Lab, CMU
-    company: Carnegie Mellon University
+    company: College of Engineering, Carnegie Mellon University
     duration: May 2020 - May 2021
   - logo: "/images/nvidia.png"
     title: System Software Engineering Intern
-    company: Nvidia
+    company: Android game streaming platform, Nvidia
     duration: May 2020 - August 2020
   - logo: "/images/cisco.png"
     title: Collaboration Solutions Engineer (Automation)
-    company: Cisco Systems
+    company: CX Collaboration, Cisco Systems
     duration: June 2015 - July 2019
 education:
   enable: false
@@ -124,4 +124,4 @@ blog:
 menu:
   main:
     name: Blog
-    weight: 3
+    weight: "3"
