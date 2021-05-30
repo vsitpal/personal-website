@@ -15,6 +15,11 @@ weight = 4
 URL = "portfolio"
 name = "Portfolio"
 weight = 2
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 3
+
 [params]
 address = "Pittsburgh, PA"
 author = "Vikramraj Sitpal"
