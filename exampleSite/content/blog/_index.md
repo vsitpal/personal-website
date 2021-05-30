@@ -1,5 +1,5 @@
 ---
-title: "Blog"
-description: "This is meta description."
+title: "Systems Druid"
+description: "Vikram's personal blog"
 draft: false
 ---

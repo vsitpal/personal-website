@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "It's me!"
 description: "Get to know me more"
 author_image : "/images/me.JPG"
 author_signature : "images/sig.png"
