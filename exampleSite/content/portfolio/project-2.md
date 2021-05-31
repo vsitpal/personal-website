@@ -11,7 +11,7 @@ draft: false
 
 ## Project Requirements
 
-Try and Secure Android Game streaming containers with multi-architecture support.
+- Try and Secure Android Game streaming containers with multi-architecture support.
 
 ## Project Details
 

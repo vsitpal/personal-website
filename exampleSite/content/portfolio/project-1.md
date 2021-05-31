@@ -12,7 +12,8 @@ draft: false
 ## Project Requirements 
 
 
-Develop a real-time kernel on ARM based chips from scratch capable of admission control, task scheduling, isolation, and synchronization. In simpler terms, this means ensuring tasks are schedulable, actually scheduling tasks on the fly, memory protection (per thread), mutexes and avoiding deadlocks.
+- Develop a real-time kernel on ARM based chips from scratch capable of admission control, task scheduling, isolation, and synchronization. 
+- In simpler terms, this means ensuring tasks are schedulable, actually scheduling tasks on the fly, memory protection (per thread), mutexes and avoiding deadlocks.
 
 ## Project Details
 
