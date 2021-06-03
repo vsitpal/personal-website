@@ -31,7 +31,7 @@ My sweet, caring and (*the most*) beautiful *Maa* is a homemaker by *profession*
 
 My affectionate elder sister is a certified yoga trainer, an engineer, an MBA and loving mother of my cute, newborn niece (and sometimes mine) who is currently taking a break from work but *on-duty* 24x7.
 
-My adventerous brother-in-law is also an officer in the Indian Air Force, an electrical engineer and a parajumper.
+My adventurous brother-in-law is also an officer in the Indian Air Force, an electrical engineer and a parajumper.
 
 I am a part of a spiritual mission called [Heartfulness](https://heartfulness.org/en/) where there is no religion, just a notion that "*Humanity’s way forward
 is through the heart*". And we meditate.
