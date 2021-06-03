@@ -25,13 +25,13 @@ Without giving away too much of our privacy, I am very blessed to have the best 
 
 > I come from a family of post-graduates. 🙂
 
-My father is an officer in the Indian Air Force, an aerospace engineer and a one-star general, so that makes me a *military kid*. I like to call him *Baapu*, the best solider of my nation. 🇮🇳
+My handsome and super-intelligent father is an officer in the Indian Air Force, an aerospace engineer and a one-star general, so that makes me a *military kid*. I like to call him *Baapu*, the best solider of my nation. 🇮🇳
 
-My sweet and caring *Maa* is a homemaker by *profession* and figurately, the backbone of my family.
+My sweet, caring and (*the most*) beautiful *Maa* is a homemaker by *profession* and figurately, the backbone of my family.
 
-My sister is a loving mother of my cute, new-born niece (and sometimes mine) who is currently off-work but on-duty (for the baby).
+My affectionate elder sister is a certified yoga trainer, an engineer, an MBA and loving mother of my cute, newborn niece (and sometimes mine) who is currently taking a break from work but *on-duty* 24x7.
 
-My brother-in-law is also an officer in the Indian Air Force and an electrical engineer.
+My adventerous brother-in-law is also an officer in the Indian Air Force, an electrical engineer and a parajumper.
 
 I am a part of a spiritual mission called [Heartfulness](https://heartfulness.org/en/) where there is no religion, just a notion that "*Humanity’s way forward
 is through the heart*". And we meditate.
