@@ -1,6 +1,6 @@
 ---
 title: "CloudFS: Hybrid SSD-Cloud File system"
-date: 2020-04-15T00:00:00Z
+date: 2020-12-12T00:00:00Z
 image: "/images/ss.jpg"
 client: "Carnegie Mellon University"
 project_url : "Private GitHub repository for academic integrity reasons"
