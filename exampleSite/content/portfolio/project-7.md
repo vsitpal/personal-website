@@ -1,7 +1,7 @@
 ---
 title: "Distributed File System"
 date: 2020-04-15T00:00:00Z
-image: "/images/dfs.png"
+image: "/images/dfs.jpg"
 client: "Carnegie Mellon University"
 project_url : "Private GitHub repository for academic integrity reasons"
 categories: ["Python", "Distributed System"]
