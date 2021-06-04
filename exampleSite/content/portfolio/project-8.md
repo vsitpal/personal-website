@@ -23,7 +23,7 @@ draft: false
 
 ## Project Details
 
-![FUSE based hybrid cloud service](../../static/images/cfs.png "Hybrid single user file system")
+![FUSE based hybrid cloud service](/images/cfs.png "Hybrid single user file system")
 
 - CloudFS is a single-user, single-threaded, local file system backed by a cloud service, and therefore a ​hybrid file system. It stores all file metadata and some file data (upto a given threshold file size) on a local drive, and the rest of the file data using a cloud object storage service, Amazon S3. 
 
