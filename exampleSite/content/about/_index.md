@@ -17,11 +17,11 @@ In my free time, I enjoy reading spy-fiction and philosophical novels. I like li
 
 I also enjoy reading about birds and plants, and once in a while take a shot at photography.
 
-`Also, did say that already? I love aircrafts.`
+`Also, did I say that already? I love aircrafts.`
 
 ### Family
 
-Without giving away too much of our privacy, I am very blessed to have the best and the most loving family.
+Without giving away too much of our privacy, I am very blessed to have the best and most loving family.
 
 > I come from a family of post-graduates. 🙂
 
@@ -33,7 +33,6 @@ My affectionate elder sister is a certified yoga trainer, an engineer, an MBA an
 
 My adventurous brother-in-law is also an officer in the Indian Air Force, an electrical engineer and a parajumper.
 
-I am a part of a spiritual mission called [Heartfulness](https://heartfulness.org/en/) where there is no religion, just a notion that "*Humanity’s way forward
-is through the heart*". And we meditate.
+I am a part of a spiritual mission called [Heartfulness (SRCM)](https://heartfulness.org/en/) where there is no religion, just a notion that "*Humanity’s way forward is through the heart*". And we meditate.
 
 I am very fortunate to have my Guide, my Master, whom we lovingly call *Daaji* (Kamlesh D. Patel) supporting and guiding us through all phases of life, both *materialistic and spiritual*, and I consider Him a part of my family. 🙂
