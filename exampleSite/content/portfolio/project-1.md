@@ -5,7 +5,7 @@ image: "/images/arm.jpg"
 client: "Carnegie Mellon University"
 project_url : "Private GitHub repository for academic integrity reasons"
 categories: ["Operating System", "C"]
-description: "RTOS Kernel on Cortex M4 STM32"
+description: "RTOS Kernel on ARM Cortex M4 STM32"
 draft: false
 ---
 
