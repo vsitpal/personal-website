@@ -16,6 +16,9 @@ team:
   enable: true
   title: My Wall
   team_member:
+  - title: I love aircrafts!
+    image: "/images/air.JPG"
+    designation: With Cessna 172 at Pittsburgh (PA)
   - title: Outstanding Student Service Award for a Teaching Assistant
     image: "/images/acc2.png"
     designation: Nominated by Patrick Tague
