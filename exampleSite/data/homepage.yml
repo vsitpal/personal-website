@@ -4,11 +4,11 @@ banner:
 about:
   enable: true
   content: |-
-    Predominantly a (Computer) Systems developer, but more importantly a human being.
-
+    Hi! I am Vikram (Vikramraj Sitpal).
+    Predominantly a (Computer) Systems developer, more importantly a human being. But primarily, I tap keys for a living (I think there's a lot more to it).
     I am a post-graduate from Carnegie Mellon University (Pittsburgh) specializing in Computer Systems & Security with basic knowledge of Machine Learning and Business Management. I'm mainly interested in Operating systems, Storage systems, Networks and Distributed systems research and development.
-
     My long term plan is to contribute to open-source projects and be an active part of the OSS community.
+    Please don't shy away from getting in touch with me!
   button:
     enable: true
     label: Read more about me...
