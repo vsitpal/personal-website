@@ -19,7 +19,6 @@ weight = 2
 URL = "blog"
 name = "Blog"
 weight = 3
-
 [params]
 address = "Pittsburgh, PA"
 author = "Vikramraj Sitpal"
@@ -28,7 +27,7 @@ description = "Vikramraj Sitpal's Personal Website"
 email = ""
 google_analytics_id = ""
 home = "Home"
-logo = "/images/work-in-progress.png"
+logo = "/images/gopher.png"
 phone = ""
 theme_color = "#116466"
 [params.contact]
