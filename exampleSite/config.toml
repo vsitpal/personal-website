@@ -20,7 +20,7 @@ URL = "blog"
 name = "Blog"
 weight = 3
 [params]
-address = "Pittsburgh, PA"
+address = "California, USA"
 author = "Vikramraj Sitpal"
 copyright = "Copyright &copy; 2021 Vikramraj Sitpal"
 description = "Vikramraj Sitpal's Personal Website"
