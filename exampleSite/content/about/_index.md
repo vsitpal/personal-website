@@ -8,7 +8,7 @@ draft: false
 
 ### Introduction
 
-As you already might have read, I am a post-graduate from CMU (Pittsburgh) specialising in Computer Systems & Security, I’m mainly interested in operating systems, storage systems, networks and distributed systems research and development. 
+As you already might have read, I am a post-graduate from CMU (Pittsburgh) specialising in Computer Systems & Security. I’m mainly interested in operating systems, storage systems, networks and distributed systems research and development. 
 My long term plan (in action) is to contribute to open-source projects and be an active part of the OSS community.
 
 ### Personal
@@ -17,13 +17,14 @@ In my free time, I enjoy reading spy-fiction and philosophical novels. I like li
 
 I also enjoy reading about birds and plants, and once in a while take a shot at photography.
 
-`Also, did I say that already? I love aircrafts.`
+`Also, did I say that already? I love aircrafts. And computer systems.`
 
 ### Family
 
-Without giving away too much of our privacy, I am very blessed to have the best and most loving family.
+Without violating too much of our privacy, I am very blessed to have the best and most loving family.
+Here are a few words about them.
 
-> I come from a family of post-graduates. 🙂
+> I come from a family of post-graduates.
 
 My handsome and super-intelligent father is an officer in the Indian Air Force, an aerospace engineer and a one-star general, so that makes me a *military kid*. I like to call him *Baapu*, the best solider of my nation. 🇮🇳
 
@@ -31,7 +32,7 @@ My sweet, caring and (*the most*) beautiful *Maa* is a homemaker by *profession*
 
 My affectionate elder sister is a certified yoga trainer, an engineer, an MBA and loving mother of my cute, newborn niece (and sometimes mine) who is currently taking a break from work but *on-duty* 24x7.
 
-My adventurous brother-in-law is also an officer in the Indian Air Force, an electrical engineer and a parajumper.
+My brother-in-law is also an officer in the Indian Air Force, an electrical engineer and a parajumper.
 
 I am a part of a spiritual mission called [Heartfulness (SRCM)](https://heartfulness.org/en/) where there is no religion, just a notion that "*Humanity’s way forward is through the heart*". And we meditate.
 
