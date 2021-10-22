@@ -34,7 +34,7 @@ skill:
     progress: 60%
     color: "#f26d6d"
   - title: Database Systems
-    progress: 25%
+    progress: 45%
     color: "#f26d6d"
   - title: Formal Verification
     progress: 40%
