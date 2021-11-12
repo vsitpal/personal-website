@@ -6,10 +6,10 @@ about:
   content: |-
     Hello! I am Vikram (Vikramraj Sitpal).
     Predominantly a (Computer) Systems developer, more importantly a human being. Primarily, I tap keys for a living (but there is a lot more to it).
-    I am a post-graduate from Carnegie Mellon University (Pittsburgh) specializing in Computer Systems & Security with basic knowledge of Machine Learning and Business Management. I'm mainly interested in Operating systems, Storage systems, Networks and Distributed systems research and development. I have worked on Embedded systems also. Lately, I have been exploring database systems, which are pretty interesting if you ask me.
+    I am a post-graduate from Carnegie Mellon University (Pittsburgh) specializing in Computer Systems & Security with basic knowledge of Machine Learning and Business Management. I'm mainly interested in Operating systems, Storage systems, Computer Architecture, Networks and Distributed systems research and development. I have worked on Embedded systems also. Lately, I have been exploring database systems. And it is awesome!
     I currently work at Oracle (Redwood Shores) as a database kernel developer in the Virtual Operating Systems team.
-    My long term plan is to contribute to open-source projects and be an active part of the OSS community.
-    Please don't shy away from getting in touch with me!
+    My long term plan is to contribute to open-source projects and be an active part of the free (libre) open-source community.
+    Please don't shy away from getting in touch with me! (if you want to talk about systems development, aircrafts, hiking, ships, submarines or bimmers)
   button:
     enable: true
     label: Read more about me...
