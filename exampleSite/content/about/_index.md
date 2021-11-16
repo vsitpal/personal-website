@@ -8,12 +8,17 @@ draft: false
 
 ### Introduction
 
-As you already might have read, I am a post-graduate from CMU (Pittsburgh) specialising in Computer Systems & Security. I’m mainly interested in operating systems, storage systems, networks and distributed systems research and development. 
-My long term plan (in action) is to contribute to open-source projects and be an active part of the OSS community.
+As you already might have read, I am Vikram. A highly motivated and enthusiastic computer systems developer mainly interested in operating systems, storage systems, computer architecture, networks and distributed systems. I have worked on Embedded systems also.
+
+Lately, I have been exploring the realm of database systems. It’s awesome. I currently work on Oracle’s RDBMS kernel.
+
+Long-term plan: Contribute to open-source projects and be an active part of the OSS community.
+
+`Love systems development, aircrafts and bimmers.`
 
 ### Personal
 
-In my free time, I enjoy reading spy-fiction and philosophical novels. I like listening to (specific) music, running, hiking, travelling, bodyweight exercises, playing squash, watching documentaries, reading about aircrafts (fighters), warships and submarines. I love aircrafts. I thoroughly enjoy reading books on Unix programming (design philosophy), kernel programming and anything which I find interesting in the tech world!
+In my free time, I enjoy reading spy-fiction and philosophical novels. I like listening to (specific) music, running, hiking, travelling (by car), bodyweight exercises, playing squash, watching documentaries, reading about aircrafts (fighters), warships and submarines. I love aircrafts. I thoroughly enjoy reading books on Unix programming (design philosophy), kernel programming and anything which I find interesting in the tech world!
 
 I also enjoy reading about birds and plants, and once in a while take a shot at photography.
 
