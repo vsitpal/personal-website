@@ -16,6 +16,9 @@ team:
   enable: true
   title: My Wall
   team_member:
+  - title: Hikes!
+    image: "/images/trek.jpg"
+    designation: I can be seen here hiking around California near the Pacific ocean.
   - title: With Momo!
     image: "/images/img_0315.JPG"
     designation: Spotted a "wild" Momo and clicked a picture with her at CMU.
