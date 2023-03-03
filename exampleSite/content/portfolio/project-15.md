@@ -33,7 +33,7 @@ So my code changes add a completely new feature, a key-value database built on t
 
 [1]: https://github.com/vikramrajsitpal/openafs/tree/gsoc-22-ri "Code Repo"
 [2]: https://github.com/vikramrajsitpal/robotframework-openafslibrary/tree/gsoc-ri "Code test repo"
-[3]: https://docs.google.com/document/d/1LU8FTm5_ZqmoM2XhfZe1YtQUYcV__rDqaQtulWlXS-s/edit?usp=sharing" "GSoC 2022"
+[3]: https://docs.google.com/document/d/1LU8FTm5_ZqmoM2XhfZe1YtQUYcV__rDqaQtulWlXS-s/edit?usp=sharing "GSoC 2022"
 [4]: https://github.com/openafs-contrib/robotframework-openafslibrary/pull/3 "Code test PR1"
 [5]: https://github.com/openafs-contrib/robotframework-openafslibrary/pull/4 "Code test PR2"
 [6]: https://github.com/vikramrajsitpal/openafs-robotest/tree/gsoc-ri "Robotest repo"
