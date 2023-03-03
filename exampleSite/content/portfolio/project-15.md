@@ -10,26 +10,27 @@ draft: false
 ---
 ## Project Details
 
-[Project Submission link][3]
-OpenAFS is a distributed file system. Currently, it has "File ID" or FID to "entry" or name lookup functionality, AKA, reverse lookup and also normal lookup, which is “name” for a given FID. Inverse Lookup is currently computationally expensive because the algorithm scans a hash index data structure embedded within a "Directory object" (which has `key:name`, `value: FID`) looking for a name that matches the given FID. It is not performant as it's merely brute-forcing the search.
+[Project Submission link][3]  
 
-So my code changes add a completely new feature, a key-value database built on top of LMDB, and along with it low-level unit tests, and overall feature tests using the Robotest framework.
+OpenAFS is a distributed file system. Currently, it has "File ID" or FID to "entry" or name lookup functionality, AKA, reverse lookup and also normal lookup, which is “name” for a given FID. Inverse Lookup is currently computationally expensive because the algorithm scans a hash index data structure embedded within a "Directory object" (which has `key:name`, `value: FID`) looking for a name that matches the given FID. It is not performant as it's merely brute-forcing the search.  
+
+So my code changes add a completely new feature, a key-value database built on top of LMDB, and along with it low-level unit tests, and overall feature tests using the Robotest framework.  
 
 ### Links
 
-#### Three GitHub repositories have my work
+Three GitHub repositories have my work:  
 
-* [Feature Code][1] 
-    * Tag (3 commits starting this tag): `gsoc-2022-ri-final`
+1. [Feature Code][1]  
+    * Tag (3 commits starting this tag): `gsoc-2022-ri-final`  
 
-* Test Library Code
-    * [Repository][2]
-    * Pull Requests:
+2. Test Library Code:  
+    * [Repository][2]  
+    * Pull Requests:  
         * [PR 1][4]
         * [PR 2][5]
 
-* Test scripts:
-    * [Repository] [6]
+3. Test scripts:  
+    * [Repository][6]
     * [PR][7]
 
 [1]: https://github.com/vikramrajsitpal/openafs/tree/gsoc-22-ri "Code Repo"
