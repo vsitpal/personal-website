@@ -4,12 +4,16 @@ banner:
 about:
   enable: true
   content: |-
-    Hello! I am Vikram (Vikramraj Sitpal).
-    Predominantly a (Computer) Systems developer, more importantly a human being. Primarily, I tap keys for a living (but there is a lot more to it).
-    I am a post-graduate from Carnegie Mellon University (Pittsburgh) specializing in Computer Systems & Security with basic knowledge of Machine Learning and Business Management. I'm mainly interested in Operating systems, Storage systems, Computer Architecture, Networks and Distributed systems research and development. I have worked on Embedded systems also. Lately, I have been exploring database systems. And it is awesome!
-    I currently work at Oracle (Redwood Shores) as a database kernel developer in the Virtual Operating Systems team.
-    My long term plan is to contribute to open-source projects and be an active part of the free (libre) open-source community.
-    Please don't shy away from getting in touch with me! (if you want to talk about systems development, aircrafts, hiking, ships, submarines or bimmers)
+Hello! I’m Vikram!
+I’m a systems developer, but I’m more interested in understanding the underlying principles that make systems tick than in the code itself. My work often involves delving into complex technical challenges, and I enjoy the process of breaking things down and finding elegant solutions.
+
+I have a master’s degree from Carnegie Mellon University (Pittsburgh), where I concentrated on Computer Systems & Security, with a side interest in Machine Learning and Business Management. I focus primarily on Operating Systems, Storage Systems, Computer Architecture, Networking, and Distributed Systems. Over the years, I’ve also gained experience in Embedded Systems. More recently, I’ve been exploring database systems and language models; and the deeper I go, the more fascinating it becomes.
+
+At the moment, I’m a Database Kernel Developer at Oracle, working in the Virtual Operating Systems team in Redwood Shores.
+
+Looking ahead, I plan to contribute to open-source projects and be involved in the broader open-source ecosystem—where collaboration and transparency drive innovation.
+
+If you’d like to discuss systems development, aircraft, hiking, ships, submarines, or bimmers, feel free to reach out. I’m always open to a good conversation!
   button:
     enable: true
     label: Read more about me...
@@ -19,7 +23,7 @@ skill:
   title: Skills (Systems development)
   item:
   - title: OS Kernel Development
-    progress: 55%
+    progress: 60%
     color: "#f26d6d"
   - title: Storage Systems
     progress: 60%
@@ -34,25 +38,25 @@ skill:
     progress: 60%
     color: "#f26d6d"
   - title: Database Systems
-    progress: 45%
+    progress: 70%
     color: "#f26d6d"
   - title: Formal Verification
     progress: 40%
     color: "#f26d6d"
   - title: C
-    progress: 85%
+    progress: 90%
     color: "#9b68f2"
   - title: Rust
-    progress: 20%
+    progress: 30%
     color: "#9b68f2"
   - title: Python3
-    progress: 85%
+    progress: 90%
     color: "#9b68f2"
   - title: Go
     progress: 70%
     color: "#9b68f2"
   - title: C++
-    progress: 60%
+    progress: 80%
     color: "#9b68f2"
   - title: Dafny
     progress: 45%
@@ -67,7 +71,7 @@ skill:
     progress: 70%
     color: "#78d0eb"
   - title: Intel Pin DBI
-    progress: 55%
+    progress: 70%
     color: "#78d0eb"
   - title: " GNS3 and Wireshark"
     progress: 90%
@@ -77,7 +81,7 @@ experience:
   title: Work Experience
   item:
   - logo: "/images/oracle.png"
-    title: Senior Member of Technical Staff
+    title: Principal Member of Technical Staff
     company: Virtual OS - Core Database Kernel, Oracle
     duration: July 2021 - Present
   - logo: "/images/cmu_200.jpg"

@@ -20,9 +20,9 @@ URL = "blog"
 name = "Blog"
 weight = 3
 [params]
-address = "Redwood City, CA"
+address = "Redwood Shores, CA"
 author = "Vikramraj Sitpal"
-copyright = "Copyright &copy; 2023 Vikramraj Sitpal"
+copyright = "Copyright &copy; 2024 Vikramraj Sitpal"
 description = "Vikramraj Sitpal's Personal Website"
 email = ""
 google_analytics_id = ""
