@@ -16,6 +16,8 @@ Looking ahead, my long-term goal is to contribute to open-source projects and ac
 
 `Love systems development, aircrafts and bimmers.`
 
+
+
 ### Personal
 
 In my free time, I enjoy reading spy-fiction and philosophical novels. I like listening to (specific) music, running, hiking, travelling (by car), bodyweight exercises, playing squash, watching documentaries, reading about aircrafts (fighters), warships and submarines. I love aircrafts. I thoroughly enjoy reading books on Unix programming (design philosophy), kernel programming and anything which I find interesting in the tech world!
@@ -24,16 +26,15 @@ I also enjoy reading about birds and plants, and once in a while take a shot at 
 
 `Also, did I say that already? I love aircrafts. And computer systems.`
 
+
+
 ### Family
 
 To respect my family's privacy, I prefer not to share specific details about them. However, I would like to express how truly blessed I feel to have such a wonderful and loving family.
 
 
+
 ### Spirituality
-
-I am not a religious person, but I do consider myself spiritual. I am a part of a spiritual mission called [Heartfulness (SRCM)](https://heartfulness.org/en/) where there is no religion, just a notion that "*Humanity’s way forward is through the heart*". And we meditate.
-
-I am very fortunate to have my Guide, my Master, whom we lovingly call *Daaji* (Kamlesh D. Patel) supporting and guiding us through all phases of life, both *materialistic and spiritual*, and I consider him a part of my family. 🙂
 
 While I am not very religious, I embrace a spiritual path that enriches my life. I’m a humble member of the [Heartfulness (SRCM)](https://heartfulness.org/en/) community, where our guiding principle is simple yet profound: “Humanity’s way forward is through the heart.” Central to this journey is our practice of meditation.
 
