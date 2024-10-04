@@ -26,11 +26,15 @@ I also enjoy reading about birds and plants, and once in a while take a shot at 
 
 ### Family
 
-Without violating too much of our privacy, I am very blessed to have the best and most loving family.
-Here are a few words about them.
+To respect my family's privacy, I prefer not to share specific details about them. However, I would like to express how truly blessed I feel to have such a wonderful and loving family.
 
-> I come from a family of post-graduates.
 
-I am a part of a spiritual mission called [Heartfulness (SRCM)](https://heartfulness.org/en/) where there is no religion, just a notion that "*Humanity’s way forward is through the heart*". And we meditate.
+### Spirituality
+
+I am not a religious person, but I do consider myself spiritual. I am a part of a spiritual mission called [Heartfulness (SRCM)](https://heartfulness.org/en/) where there is no religion, just a notion that "*Humanity’s way forward is through the heart*". And we meditate.
 
 I am very fortunate to have my Guide, my Master, whom we lovingly call *Daaji* (Kamlesh D. Patel) supporting and guiding us through all phases of life, both *materialistic and spiritual*, and I consider him a part of my family. 🙂
+
+While I am not very religious, I embrace a spiritual path that enriches my life. I’m a humble member of the [Heartfulness (SRCM)](https://heartfulness.org/en/) community, where our guiding principle is simple yet profound: “Humanity’s way forward is through the heart.” Central to this journey is our practice of meditation.
+
+I feel incredibly grateful to have my guide and guru, affectionately known as Daaji (Kamlesh D. Patel), who offers unwavering support and wisdom through every stage of life—both material and spiritual.
