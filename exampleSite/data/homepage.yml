@@ -4,12 +4,12 @@ banner:
 about:
   enable: true
   content: |-
-Hello! I’m Vikram!
-I’m a systems developer, but I’m more interested in understanding the underlying principles that make systems tick than in the code itself. My work often involves delving into complex technical challenges, and I enjoy the process of breaking things down and finding elegant solutions.
-I have a master’s degree from Carnegie Mellon University (Pittsburgh), where I concentrated on Computer Systems & Security, with a side interest in Machine Learning and Business Management. I focus primarily on Operating Systems, Storage Systems, Computer Architecture, Networking, and Distributed Systems. Over the years, I’ve also gained experience in Embedded Systems. More recently, I’ve been exploring database systems and language models; and the deeper I go, the more fascinating it becomes.
-At the moment, I’m a Database Kernel Developer at Oracle, working in the Virtual Operating Systems team in Redwood Shores.
-Looking ahead, I plan to contribute to open-source projects and be involved in the broader open-source ecosystem—where collaboration and transparency drive innovation.
-If you’d like to discuss systems development, aircraft, hiking, ships, submarines, or bimmers, feel free to reach out. I’m always open to a good conversation!
+    Hello! I’m Vikram!
+    I’m a systems developer, but I’m more interested in understanding the underlying principles that make systems tick than in the code itself. My work often involves delving into complex technical challenges, and I enjoy the process of breaking things down and finding elegant solutions.
+    I have a master’s degree from Carnegie Mellon University (Pittsburgh), where I concentrated on Computer Systems & Security, with a side interest in Machine Learning and Business Management. I focus primarily on Operating Systems, Storage Systems, Computer Architecture, Networking, and Distributed Systems. Over the years, I’ve also gained experience in Embedded Systems. More recently, I’ve been exploring database systems and language models; and the deeper I go, the more fascinating it becomes.
+    At the moment, I’m a Database Kernel Developer at Oracle, working in the Virtual Operating Systems team in Redwood Shores.
+    Looking ahead, I plan to contribute to open-source projects and be involved in the broader open-source ecosystem—where collaboration and transparency drive innovation.
+    If you’d like to discuss systems development, aircraft, hiking, ships, submarines, or bimmers, feel free to reach out. I’m always open to a good conversation!
   button:
     enable: true
     label: Read more about me...
@@ -18,81 +18,82 @@ skill:
   enable: true
   title: Skills (Systems development)
   item:
-  - title: OS Kernel Development
-    progress: 60%
-    color: "#f26d6d"
-  - title: Storage Systems
-    progress: 60%
-    color: "#f26d6d"
-  - title: Distributed Systems
-    progress: 60%
-    color: "#f26d6d"
-  - title: Embedded Systems
-    progress: 60%
-    color: "#f26d6d"
-  - title: Network Systems
-    progress: 60%
-    color: "#f26d6d"
-  - title: Database Systems
-    progress: 70%
-    color: "#f26d6d"
-  - title: Formal Verification
-    progress: 40%
-    color: "#f26d6d"
-  - title: C
-    progress: 90%
-    color: "#9b68f2"
-  - title: Rust
-    progress: 30%
-    color: "#9b68f2"
-  - title: Python3
-    progress: 90%
-    color: "#9b68f2"
-  - title: Go
-    progress: 70%
-    color: "#9b68f2"
-  - title: C++
-    progress: 80%
-    color: "#9b68f2"
-  - title: Dafny
-    progress: 45%
-    color: "#9b68f2"
-  - title: Git
-    progress: 80%
-    color: "#78d0eb"
-  - title: " Filesystem in Userspace (FUSE)"
-    progress: 80%
-    color: "#78d0eb"
-  - title: GDB, Make, Lex/Yacc
-    progress: 70%
-    color: "#78d0eb"
-  - title: Intel Pin DBI
-    progress: 70%
-    color: "#78d0eb"
-  - title: " GNS3 and Wireshark"
-    progress: 90%
-    color: "#78d0eb"
+    - title: OS Kernel Development
+      progress: 60%
+      color: "#f26d6d"
+    - title: Storage Systems
+      progress: 60%
+      color: "#f26d6d"
+    - title: Distributed Systems
+      progress: 60%
+      color: "#f26d6d"
+    - title: Embedded Systems
+      progress: 60%
+      color: "#f26d6d"
+    - title: Network Systems
+      progress: 60%
+      color: "#f26d6d"
+    - title: Database Systems
+      progress: 70%
+      color: "#f26d6d"
+    - title: Formal Verification
+      progress: 40%
+      color: "#f26d6d"
+    - title: C
+      progress: 90%
+      color: "#9b68f2"
+    - title: Rust
+      progress: 30%
+      color: "#9b68f2"
+    - title: Python3
+      progress: 90%
+      color: "#9b68f2"
+    - title: Go
+      progress: 70%
+      color: "#9b68f2"
+    - title: C++
+      progress: 80%
+      color: "#9b68f2"
+    - title: Dafny
+      progress: 45%
+      color: "#9b68f2"
+    - title: Git
+      progress: 80%
+      color: "#78d0eb"
+    - title: " Filesystem in Userspace (FUSE)"
+      progress: 80%
+      color: "#78d0eb"
+    - title: GDB, Make, Lex/Yacc
+      progress: 70%
+      color: "#78d0eb"
+    - title: Intel Pin DBI
+      progress: 70%
+      color: "#78d0eb"
+    - title: " GNS3 and Wireshark"
+      progress: 90%
+      color: "#78d0eb"
 experience:
   enable: true
   title: Work Experience
   item:
-  - logo: "/images/oracle.png"
-    title: Principal Member of Technical Staff
-    company: Virtual OS - Core Database Kernel, Oracle
-    duration: July 2021 - Present
-  - logo: "/images/cmu_200.jpg"
-    title: Teaching Assistant for Introduction to Computer Systems | Teaching Assistant
-      for Distributed Systems | Research Assistant at Parallel Data Lab, CMU
-    company: College of Engineering, Carnegie Mellon University
-    duration: May 2020 - May 2021
-  - logo: "/images/nvidia.png"
-    title: System Software Engineering Intern
-    company: Android game streaming platform, Nvidia
-    duration: May 2020 - August 2020
-  - logo: "/images/cisco.png"
-    title: Collaboration Solutions Engineer (Automation)
-    company: CX Collaboration, Cisco Systems
-    duration: June 2015 - July 2019
+    - logo: "/images/oracle.png"
+      title: Principal Member of Technical Staff
+      company: Virtual OS - Core Database Kernel, Oracle
+      duration: July 2021 - Present
+    - logo: "/images/cmu_200.jpg"
+      title:
+        Teaching Assistant for Introduction to Computer Systems | Teaching Assistant
+        for Distributed Systems | Research Assistant at Parallel Data Lab, CMU
+      company: College of Engineering, Carnegie Mellon University
+      duration: May 2020 - May 2021
+    - logo: "/images/nvidia.png"
+      title: System Software Engineering Intern
+      company: Android game streaming platform, Nvidia
+      duration: May 2020 - August 2020
+    - logo: "/images/cisco.png"
+      title: Collaboration Solutions Engineer (Automation)
+      company: CX Collaboration, Cisco Systems
+      duration: June 2015 - July 2019
 education:
   enable: false
   title: Education
@@ -109,15 +110,17 @@ testimonial:
   enable: true
   title: Recommendations
   item:
-  - name: Patrick Tague
-    image: "/images/tague.jpg"
-    designation: Associate Teaching Professor and Associate Director, Information
-      Networking Institute, Carnegie Mellon University
-    content: 'For Outstanding Graduate TA Award: "Xinhao, Abhilasha, and Vikramraj
-      are truly a dynamic team with serious expertise and dedication to improving
-      the quality of education and student experience at the INI…They didn’t just
-      help the students; they worked with the students in a way that allowed for discovery
-      and learning."'
+    - name: Patrick Tague
+      image: "/images/tague.jpg"
+      designation:
+        Associate Teaching Professor and Associate Director, Information
+        Networking Institute, Carnegie Mellon University
+      content:
+        'For Outstanding Graduate TA Award: "Xinhao, Abhilasha, and Vikramraj
+        are truly a dynamic team with serious expertise and dedication to improving
+        the quality of education and student experience at the INI…They didn’t just
+        help the students; they worked with the students in a way that allowed for discovery
+        and learning."'
 clients_logo_slider:
   enable: false
   item: []
@@ -129,3 +132,4 @@ menu:
   main:
     name: Blog
     weight: "3"
+    
