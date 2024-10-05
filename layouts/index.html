@@ -51,7 +51,7 @@
   <section class="section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-10 mx-auto text-center">
+        <div class="col-lg-20 mx-auto text-justify">
           {{ with site.Data.homepage.about }}
           <p class="font-secondary lead text-dark">{{.content | markdownify}}</p>
           {{ if .button.enable }}
@@ -84,7 +84,7 @@
               <div class="wave" data-progress="{{.progress}}"></div>
             </div>
             <div class="card-footer bg-white">
-              <h4 class="card-title">{{.title }} ({{.progress}})</h4>
+              <h4 class="card-title">{{.title }}</h4>
             </div>
           </div>
         </div>

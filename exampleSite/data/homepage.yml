@@ -1,10 +1,10 @@
 ---
 banner:
-  title: "<br>Hello World!<br>I’m Vikram."
+  title: "<br>Welcome to my Den!"
 about:
   enable: true
   content: |-
-    Hello! I’m Vikram!
+    Hello, I’m Vikram!
     I’m a systems developer, but I’m more interested in understanding the underlying principles that make systems tick than in the code itself. My work often involves delving into complex technical challenges, and I enjoy the process of breaking things down and finding elegant solutions.
     I have a master’s degree from Carnegie Mellon University (Pittsburgh), where I concentrated on Computer Systems & Security, with a side interest in Machine Learning and Business Management. I focus primarily on Operating Systems, Storage Systems, Computer Architecture, Networking, and Distributed Systems. Over the years, I’ve also gained experience in Embedded Systems. More recently, I’ve been exploring database systems and language models; and the deeper I go, the more fascinating it becomes.
     At the moment, I’m a Database Kernel Developer at Oracle, working in the Virtual Operating Systems team in Redwood Shores.
@@ -16,7 +16,7 @@ about:
     URL: about
 skill:
   enable: true
-  title: Skills (Systems development)
+  title: Skills
   item:
     - title: OS Kernel Development
       progress: 60%
@@ -72,6 +72,12 @@ skill:
     - title: " GNS3 and Wireshark"
       progress: 90%
       color: "#78d0eb"
+    - title: Machine Learning
+      progress: 60%
+      color: "#7cb46b"
+    - title: Large Language Models
+      progress: 40%
+      color: "#7cb46b"
 experience:
   enable: true
   title: Work Experience
