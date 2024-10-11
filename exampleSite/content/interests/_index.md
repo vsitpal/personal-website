@@ -1,5 +1,5 @@
 ---
-title: "Interests"
+title: "Dabbles"
 description: "My interests apart from work"
 draft: false
 ---

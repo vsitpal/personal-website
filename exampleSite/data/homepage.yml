@@ -134,6 +134,9 @@ clients_logo_slider:
 blog:
   enable: true
   title: Systems Druid
+interests:
+  enable: true
+  title: Dabbles
 menu:
   main:
     name: Blog
