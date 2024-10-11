@@ -1,0 +1,44 @@
+---
+work_process:
+  enable: false
+  title: Education
+  item:
+  - title: Carnegie Mellon University, Pittsburgh, PA
+    icon: "/images/cmu.jpg"
+    content: Master of Science in Information Networking (Computer Systems) [2019-2021]
+  - title: Vellore Institute of Technology, Vellore, IN
+    icon: images/vit.jpg
+    content: Bachelor of Technology in Computer Science and Engineering [2012-2016]
+  - title: The Air Force School, New Delhi, IN
+    icon: images/tafs.png
+    content: All India Senior School Certificate [2011-2012]
+team:
+  enable: false
+  title: My Wall
+  team_member:
+  - title: Hikes!
+    image: "/images/trek.jpg"
+    designation: I can be seen here hiking around California near the Pacific ocean.
+  - title: With Momo!
+    image: "/images/img_0315.JPG"
+    designation: Spotted a "wild" Momo and clicked a picture with her at CMU.
+  - title: Outstanding Student Service Award for a Teaching Assistant by CMU
+    image: "/images/acc2.png"
+    designation: Nominated by Patrick Tague
+  - title: CMU Graduation '21
+    image: "/images/new.jpg"
+    designation: 'Picture taken by: Sara'
+  - title: Innocent Habiyaremye Memorial Award by CMU
+    image: "/images/acc1.png"
+    designation: Nominated by Aleecia M. McDonald
+  - title: 'As I said: I love aircrafts.'
+    image: "/images/air.JPG"
+    designation: 'With Cessna 172 at Pittsburgh (PA) [Location: TS]'
+clients_logo_slider:
+  enable: false
+  title: Photo Gallery
+  item: []
+menu:
+  main:
+    name: Interests
+    weight: "4"
