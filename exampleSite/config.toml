@@ -8,10 +8,6 @@ URL = "about"
 name = "About"
 weight = 1
 [[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 4
-[[menu.main]]
 URL = "portfolio"
 name = "Portfolio"
 weight = 2
@@ -23,6 +19,10 @@ weight = 3
 URL = "interests"
 name = "Interests"
 weight = 4
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 5
 [params]
 address = "Redwood Shores, CA"
 author = "Vikramraj Sitpal"
