@@ -36,17 +36,19 @@
 {{ with site.Data.interests.team }}
 <section class="section bg-cover" data-background="{{`images/backgrounds/team-bg.png`|relURL}}">
   <div class="container">
-    <div class="row">
+    <div class="row wall-grid">
       <div class="col-12 text-center">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
       </div>
       {{ range .team_member }}
-      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-        <div class="card text-center">
-          <img src="{{ .image | absURL }}" class="card-img-top">
-          <div class="card-body">
+      <div class="col-md-4 col-sm-6 mb-4 wall-item">
+        <div class="card text-center wall-card h-100">
+          <div class="wall-card-media">
+            <img src="{{ .image | absURL }}" alt="{{ .title }}" class="card-img-top wall-card-image">
+          </div>
+          <div class="card-body wall-card-body">
             <h4 class="card-title">{{.title }}</h4>
-            <p class="text-light font-secondary">{{.designation }}</p>
+            <p class="text-light font-secondary mb-0">{{.designation }}</p>
           </div>
         </div>
       </div>

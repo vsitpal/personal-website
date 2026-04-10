@@ -514,7 +514,54 @@ h6,
   height: 100%;
 }
 
-.bg-cover .card-img-top {
+.wall-grid {
+  row-gap: 8px;
+}
+
+.wall-item {
+  display: flex;
+}
+
+.wall-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wall-card-media {
+  height: 320px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(248, 252, 253, .98), rgba(238, 245, 247, .92));
+}
+
+.wall-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.wall-card-body {
+  flex: 1 1 auto;
+  min-height: 190px;
+  padding: 26px 24px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wall-card .card-title {
+  margin-bottom: 14px;
+}
+
+.wall-card .font-secondary {
+  line-height: 1.7;
+}
+
+.bg-cover .card-img-top:not(.wall-card-image) {
   height: 260px;
   object-fit: cover;
 }
@@ -612,5 +659,13 @@ blockquote {
 
   .education-logo img {
     max-height: 146px;
+  }
+
+  .wall-card-media {
+    height: 280px;
+  }
+
+  .wall-card-body {
+    min-height: 170px;
   }
 }
