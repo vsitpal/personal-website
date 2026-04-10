@@ -1,14 +1,15 @@
 ---
 banner:
   title: "Welcome to my Den."
-  eyebrow: "Systems developer • kernel, storage, and distributed systems"
-  subtitle: "I like understanding the principles that make complex systems tick—from operating systems and databases to ML infrastructure and computer architecture."
+  eyebrow: "Runner • Systems and AI Infrastructure developer"
+  subtitle: "I like understanding the principles that make complex systems tick - from operating systems and databases to ML infrastructure and computer architecture."
   panel_title: Current Focus
   focus:
     - Database kernel development at Oracle
     - Systems & Security roots from Carnegie Mellon
     - Open-source systems, infrastructure, and elegant internals
   tags:
+    - Databases
     - Operating Systems
     - Storage Systems
     - Distributed Systems
@@ -80,16 +81,22 @@ skill:
     - title: GDB, Make, Lex/Yacc
       progress: 70%
       color: "#b07b4f"
-    - title: Intel Pin DBI
+    - title: Systems Performance Instrumentation
       progress: 70%
       color: "#b07b4f"
-    - title: " GNS3 and Wireshark"
+    - title: " eBPF"
       progress: 90%
+      color: "#b07b4f"
+    - title: Observability
+      progress: 70%
       color: "#b07b4f"
     - title: Machine Learning
       progress: 60%
       color: "#667c66"
     - title: Large Language Models
+      progress: 70%
+      color: "#667c66"
+    - title: Agents and Harnesses
       progress: 70%
       color: "#667c66"
 experience:
