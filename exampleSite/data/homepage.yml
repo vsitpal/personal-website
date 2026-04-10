@@ -5,7 +5,8 @@ banner:
   subtitle: "I like understanding the principles that make complex systems tick - from operating systems and databases to ML infrastructure and computer architecture."
   panel_title: Current Focus
   focus:
-    - Database kernel development at Oracle
+    - Database development
+    - AI Infrastructure
     - Systems & Security roots from Carnegie Mellon
     - Open-source systems, infrastructure, and elegant internals
   tags:

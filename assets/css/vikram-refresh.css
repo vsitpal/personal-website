@@ -414,6 +414,34 @@ h6,
   margin-bottom: 10px;
 }
 
+.education-card {
+  padding: 32px 28px;
+}
+
+.education-logo {
+  height: 220px;
+  margin-bottom: 24px;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(19, 40, 60, .06);
+  background: linear-gradient(180deg, rgba(248, 252, 253, .98), rgba(238, 245, 247, .92));
+}
+
+.education-logo img {
+  max-width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.education-copy {
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.education-copy p:last-child {
+  margin-bottom: 0;
+}
+
 .hover-wrapper {
   border-radius: 22px;
   border: 1px solid rgba(19, 40, 60, .08);
@@ -547,5 +575,14 @@ blockquote {
 
   .intro-panel {
     padding: 30px 24px;
+  }
+
+  .education-logo {
+    height: 180px;
+    padding: 14px;
+  }
+
+  .education-logo img {
+    max-height: 146px;
   }
 }
