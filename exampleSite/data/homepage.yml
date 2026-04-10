@@ -1,6 +1,20 @@
 ---
 banner:
-  title: "<br>Welcome to my Den!"
+  title: "Welcome to my Den."
+  eyebrow: "Systems developer • kernel, storage, and distributed systems"
+  subtitle: "I like understanding the principles that make complex systems tick—from operating systems and databases to ML infrastructure and computer architecture."
+  panel_title: Current Focus
+  focus:
+    - Database kernel development at Oracle
+    - Systems & Security roots from Carnegie Mellon
+    - Open-source systems, infrastructure, and elegant internals
+  tags:
+    - Operating Systems
+    - Storage Systems
+    - Distributed Systems
+    - Computer Architecture
+    - ML Infrastructure
+    - Aircraft & Trails
 about:
   enable: true
   content: |-
@@ -20,70 +34,70 @@ skill:
   item:
     - title: OS Kernel Development
       progress: 60%
-      color: "#f26d6d"
+      color: "#2f6b75"
     - title: Storage Systems
       progress: 60%
-      color: "#f26d6d"
+      color: "#2f6b75"
     - title: Distributed Systems
       progress: 60%
-      color: "#f26d6d"
+      color: "#2f6b75"
     - title: Embedded Systems
       progress: 60%
-      color: "#f26d6d"
+      color: "#2f6b75"
     - title: Network Systems
       progress: 60%
-      color: "#f26d6d"
+      color: "#2f6b75"
     - title: Database Systems
       progress: 70%
-      color: "#f26d6d"
+      color: "#2f6b75"
     - title: Formal Verification
       progress: 40%
-      color: "#f26d6d"
+      color: "#3d607b"
     - title: C
       progress: 90%
-      color: "#9b68f2"
+      color: "#526d8a"
     - title: Rust
       progress: 30%
-      color: "#9b68f2"
+      color: "#526d8a"
     - title: Python3
       progress: 90%
-      color: "#9b68f2"
+      color: "#526d8a"
     - title: Go
       progress: 70%
-      color: "#9b68f2"
+      color: "#526d8a"
     - title: C++
       progress: 80%
-      color: "#9b68f2"
+      color: "#526d8a"
     - title: Dafny
       progress: 45%
-      color: "#9b68f2"
+      color: "#526d8a"
     - title: Git
       progress: 80%
-      color: "#78d0eb"
+      color: "#b07b4f"
     - title: " Filesystem in Userspace (FUSE)"
       progress: 80%
-      color: "#78d0eb"
+      color: "#b07b4f"
     - title: GDB, Make, Lex/Yacc
       progress: 70%
-      color: "#78d0eb"
+      color: "#b07b4f"
     - title: Intel Pin DBI
       progress: 70%
-      color: "#78d0eb"
+      color: "#b07b4f"
     - title: " GNS3 and Wireshark"
       progress: 90%
-      color: "#78d0eb"
+      color: "#b07b4f"
     - title: Machine Learning
       progress: 60%
-      color: "#7cb46b"
+      color: "#667c66"
     - title: Large Language Models
-      progress: 40%
-      color: "#7cb46b"
+      progress: 70%
+      color: "#667c66"
 experience:
   enable: true
   title: Work Experience
   item:
     - logo: "/images/oracle.png"
-      title: Principal Member of Technical Staff
+      title: Senior Manager, Development
       company: Virtual OS - Core Database Kernel, Oracle
       duration: July 2021 - Present
     - logo: "/images/cmu_200.jpg"

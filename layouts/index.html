@@ -2,13 +2,45 @@
 
   <!-- hero area -->
   <section class="hero-area bg-primary overflow-hidden" id="parallax">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-11 mx-auto">
-          <h1 class="text-white font-tertiary">{{ site.Data.homepage.banner.title | safeHTML }}</h1>
+    {{ with site.Data.homepage.banner }}
+    <div class="container hero-content">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          {{ with .eyebrow }}
+          <p class="hero-kicker mb-4">{{ . }}</p>
+          {{ end }}
+          <h1 class="text-white font-tertiary">{{ .title | safeHTML }}</h1>
+          {{ with .subtitle }}
+          <p class="hero-lead mb-4">{{ . }}</p>
+          {{ end }}
+          {{ with .tags }}
+          <div class="hero-tag-list">
+            {{ range . }}
+            <span class="hero-tag">{{ . }}</span>
+            {{ end }}
+          </div>
+          {{ end }}
+          <ul class="list-unstyled hero-social position-relative zindex-1">
+            {{ range site.Params.social }}
+            <li><a class="text-white" href="{{.URL | safeURL }}"><i class="{{.icon}}"></i></a></li>
+            {{ end }}
+          </ul>
+        </div>
+        <div class="col-lg-4 offset-lg-1 mt-5 mt-lg-0">
+          <div class="hero-panel">
+            <p class="hero-panel-label mb-3">{{ with .panel_title }}{{ . }}{{ else }}Current Focus{{ end }}</p>
+            {{ with .focus }}
+            <ul class="hero-panel-list">
+              {{ range . }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+            {{ end }}
+          </div>
         </div>
       </div>
     </div>
+    {{ end }}
     <div class="layer-bg w-100">
       <img class="img-fluid w-100" src="{{`images/illustrations/leaf-bg.png` | relURL}}" alt="bg-shape">
     </div>
@@ -36,30 +68,27 @@
     <div class="layer" id="l9">
       <img src="{{`images/illustrations/leaf-cyan-2.svg` | relURL}}" alt="bg-shape">
     </div>
-    <!-- social icon -->
-    <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
-      {{ range site.Params.social }}
-      <li class="mb-3"><a class="text-white" href="{{.URL | safeURL }}"><i class="{{.icon}}"></i></a></li>
-      {{ end }}
-    </ul>
-    <!-- /social icon -->
   </section>
   <!-- /hero area -->
 
   {{ if site.Data.homepage.about.enable }}
   <!-- about -->
-  <section class="section">
+  <section class="section section-soft">
     <div class="container">
       <div class="row">
-        <div class="col-lg-20 mx-auto text-justify">
+        <div class="col-lg-10 mx-auto">
+          <div class="intro-panel text-justify">
           {{ with site.Data.homepage.about }}
-          <p class="font-secondary lead text-dark">{{.content | markdownify}}</p>
+          <div class="lead text-dark intro-copy">{{.content | markdownify}}</div>
           {{ if .button.enable }}
           {{ with .button }}
-          <a href="{{ .URL | absURL }}" class="btn btn-transparent">{{.label}}</a>
+          <div class="intro-actions">
+            <a href="{{ .URL | absURL }}" class="btn btn-transparent">{{.label}}</a>
+          </div>
           {{ end }}
           {{ end }}
           {{ end }}
+          </div>
         </div>
       </div>
     </div>
@@ -71,7 +100,7 @@
   {{ if site.Data.homepage.skill.enable }}
   {{ with site.Data.homepage.skill }}
   <!-- skills -->
-  <section class="section">
+  <section class="section section-skills">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -79,11 +108,11 @@
         </div>
         {{ range .item }}
         <div class="col-lg-3 col-sm-6 mb-4">
-          <div class="card shadow text-center">
+          <div class="card skill-card shadow text-center h-100">
             <div class="position-relative rounded-top progress-wrapper" data-color="{{.color}}">
               <div class="wave" data-progress="{{.progress}}"></div>
             </div>
-            <div class="card-footer bg-white">
+            <div class="card-footer skill-card-footer">
               <h4 class="card-title">{{.title }}</h4>
             </div>
           </div>
@@ -99,18 +128,22 @@
   {{ if site.Data.homepage.experience.enable }}
   {{ with site.Data.homepage.experience }}
   <!-- experience -->
-  <section class="section">
+  <section class="section section-muted">
     <div class="container">
       <div class="row justify-content-around">
         <div class="col-lg-12 text-center">
           <h2 class="section-title">{{ .title | markdownify }}</h2>
         </div>
         {{ range .item }}
-        <div class="col-lg-3 col-md-4 text-center">
-          <img src="{{.logo | relURL }}" alt="icon">
-          <p class="mb-0">{{.duration}}</p>
-          <h4>{{.title }}</h4>
-          <h6 class="text-light">{{.company }}</h6>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="experience-card h-100">
+            <div class="experience-logo">
+              <img src="{{.logo | relURL }}" alt="icon">
+            </div>
+            <p class="mb-2 experience-duration">{{.duration}}</p>
+            <h4>{{.title }}</h4>
+            <h6 class="text-light mb-0">{{.company }}</h6>
+          </div>
         </div>
         {{ end }}
       </div>
@@ -156,7 +189,7 @@
   {{ if site.Data.homepage.service.enable }}
   {{ with site.Data.homepage.service }}
   <!-- services -->
-  <section class="section">
+  <section class="section section-soft">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
@@ -214,7 +247,7 @@
   {{ if site.Data.homepage.testimonial.enable }}
   {{ with site.Data.homepage.testimonial }}
   <!-- testimonial -->
-  <section class="section bg-primary position-relative testimonial-bg-shapes">
+  <section class="section bg-primary position-relative testimonial-bg-shapes section-testimonial">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
@@ -259,7 +292,7 @@
 
   {{ if site.Data.homepage.blog.enable }}
   <!-- blog -->
-  <section class="section">
+  <section class="section section-soft">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
