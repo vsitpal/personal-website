@@ -51,11 +51,19 @@
       {{ range .item }}
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="experience-card education-card h-100">
+          {{ $content := .content }}
+          {{ $degree := replaceRE `\s*\[(.*?)\]\s*$` "" $content }}
+          {{ $period := replaceRE `^.*\[(.*?)\]\s*$` "$1" $content }}
           <div class="experience-logo education-logo">
             <img src="{{ .icon | absURL }}" alt="{{ .title }}">
           </div>
           <h4 class="mb-3">{{ .title }}</h4>
-          <div class="education-copy text-light">{{ .content | markdownify }}</div>
+          <div class="education-copy">
+            <div class="education-degree">{{ $degree }}</div>
+            {{ if ne $degree $content }}
+            <div class="education-period">{{ $period }}</div>
+            {{ end }}
+          </div>
         </div>
       </div>
       {{ end }}
