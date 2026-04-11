@@ -107,6 +107,67 @@ h6,
   color: #fff;
 }
 
+.portfolio-filter-bar {
+  gap: 14px 16px;
+  margin: 0 auto;
+  padding: 18px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, .52);
+  box-shadow: 0 18px 40px rgba(16, 35, 54, .08);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.portfolio-filter-bar .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 54px;
+  margin: 0;
+  padding: 12px 26px;
+  border: 1px solid rgba(19, 40, 60, .08);
+  background: rgba(255, 255, 255, .92);
+  color: var(--heading-color);
+  box-shadow: none;
+  white-space: nowrap;
+}
+
+.portfolio-filter-bar .btn:hover {
+  background: rgba(220, 162, 106, .14) !important;
+  color: var(--heading-color);
+  box-shadow: 0 14px 28px rgba(16, 35, 54, .1);
+}
+
+.portfolio-filter-bar .btn.active,
+.portfolio-filter-bar .btn:active,
+.portfolio-filter-bar .btn:focus,
+.portfolio-filter-bar .btn.btn-primary.active,
+.portfolio-filter-bar .btn.btn-primary:active,
+.portfolio-filter-bar .btn.btn-primary:focus {
+  background: linear-gradient(135deg, var(--accent-color), var(--accent-strong)) !important;
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 18px 32px rgba(201, 133, 79, .28) !important;
+}
+
+.portfolio-filter-bar .btn input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  .portfolio-filter-bar {
+    gap: 10px;
+    padding: 14px;
+  }
+
+  .portfolio-filter-bar .btn {
+    min-height: 48px;
+    padding: 10px 18px;
+  }
+}
+
 .card {
   border: 1px solid var(--border-color);
   border-radius: 22px;
