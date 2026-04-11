@@ -14,7 +14,7 @@
       <div class="blog-hero">
         <div class="row align-items-stretch">
           {{ if $image }}
-          <div class="col-lg-5 mb-4 mb-lg-0">
+          <div class="col-lg-4 mb-4 mb-lg-0">
             <div class="blog-hero-media-wrap h-100">
               <figure class="blog-hero-media mb-0">
                 <img src="{{ $image | absURL }}" alt="{{ .Title }}" class="blog-hero-image">
@@ -23,7 +23,7 @@
           </div>
           {{ end }}
 
-          <div class="{{ if $image }}col-lg-7{{ else }}col-lg-12{{ end }}">
+          <div class="{{ if $image }}col-lg-8{{ else }}col-lg-12{{ end }}">
             <div class="blog-overview-panel h-100">
               <span class="blog-kicker">Personal reflection</span>
               <h2 class="blog-headline">{{ .Title }}</h2>
@@ -89,14 +89,14 @@
       </div>
 
       <div class="row justify-content-center align-items-start blog-content-row">
-        <div class="{{ if $hasTOC }}col-lg-8{{ else }}col-lg-10{{ end }}">
+        <div class="{{ if $hasTOC }}col-lg-7 col-xl-8{{ else }}col-lg-8 col-xl-9{{ end }}">
           <article class="blog-prose">
             {{ .Content }}
           </article>
         </div>
 
         {{ if $hasTOC }}
-        <div class="col-lg-3 offset-lg-1 mt-5 mt-lg-0">
+        <div class="col-lg-4 col-xl-3 pl-lg-4 mt-5 mt-lg-0">
           <aside class="blog-sidebar">
             <p class="blog-sidebar-label">On this page</p>
             <div class="blog-toc">{{ $toc }}</div>
