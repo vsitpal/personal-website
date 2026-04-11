@@ -1,11 +1,19 @@
 <div class="col-lg-4 col-sm-6 mb-4">
-  <article class="card shadow">
-    <img class="rounded card-img-top" src="{{.Params.Image | relURL}}" alt="{{.Title }}">
-    <div class="card-body">
-      <h4 class="card-title"><a class="text-dark" href="{{.Permalink}}">{{.Title }}</a>
+  <article class="card shadow blog-card h-100">
+    <img class="rounded card-img-top blog-card-image" src="{{.Params.Image | relURL}}" alt="{{.Title }}">
+    <div class="card-body blog-card-body d-flex flex-column">
+      <div class="blog-card-meta">{{ .PublishDate.Format "Jan 02, 2006" }}</div>
+      <h4 class="card-title blog-card-title"><a class="text-dark" href="{{.Permalink}}">{{.Title }}</a>
       </h4>
-      <p class="cars-text">{{.Summary}}</p>
-      <a href="{{.Permalink}}" class="btn btn-sm btn-primary">Read More</a>
+      <p class="cars-text blog-card-summary">{{.Summary}}</p>
+      {{ with .Params.tags }}
+      <div class="blog-card-tags">
+        {{ range first 3 . }}
+        <span class="blog-card-tag">{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+      <a href="{{.Permalink}}" class="btn btn-sm btn-primary mt-auto align-self-start">Read More</a>
     </div>
   </article>
 </div>
