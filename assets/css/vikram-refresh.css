@@ -266,6 +266,10 @@ h6,
   margin-bottom: 42px;
 }
 
+.blog-overview-row {
+  align-items: stretch;
+}
+
 .blog-hero-media,
 .blog-overview-panel,
 .blog-prose,
@@ -333,6 +337,7 @@ h6,
   max-width: 52ch;
   font-size: 18px;
   line-height: 1.95;
+  overflow-wrap: anywhere;
 }
 
 .blog-meta-grid {
@@ -355,6 +360,7 @@ h6,
   border-radius: 22px;
   background: rgba(255, 255, 255, .7);
   border: 1px solid rgba(19, 40, 60, .06);
+  min-width: 0;
 }
 
 .blog-meta-icon {
@@ -389,6 +395,7 @@ h6,
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.6;
+  overflow-wrap: anywhere;
 }
 
 .blog-tag-section {
@@ -550,6 +557,7 @@ h6,
   top: 110px;
   padding: 26px 24px 28px;
   border-radius: 26px;
+  min-width: 0;
 }
 
 .blog-toc #TableOfContents>ul,
@@ -573,6 +581,21 @@ h6,
   display: block;
   color: var(--heading-color);
   line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+
+.blog-overview-row .col-lg-8,
+.blog-overview-row .col-lg-4 {
+  display: flex;
+}
+
+.blog-overview-row .blog-overview-panel,
+.blog-overview-row .blog-sidebar {
+  width: 100%;
+}
+
+.blog-overview-row .blog-sidebar {
+  max-height: 100%;
 }
 
 .blog-card {
