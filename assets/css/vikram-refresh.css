@@ -1213,6 +1213,7 @@ h6,
 
 .intro-panel {
   position: relative;
+  overflow: hidden;
   padding: 42px 46px;
   border: 1px solid var(--border-color);
   border-radius: 24px;
