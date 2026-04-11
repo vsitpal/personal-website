@@ -1,5 +1,5 @@
 ---
-title: "My Projects (still adding them here)"
+title: "My Projects (WIP)"
 description: "Vikram's Projects"
 draft: false
 ---
