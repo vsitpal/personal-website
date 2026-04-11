@@ -23,9 +23,11 @@
   {{ $vikramStyles := resources.Get "css/vikram-refresh.css" | minify }}
   <link rel="stylesheet" href="{{ $vikramStyles.Permalink }}" media="screen">
 
-  {{ "<!--Favicon - By Vikram -->" | safeHTML }}
-  <link rel="shortcut icon" href="{{ `/images/in.png` | absURL }}" type="image/png">
-  <link rel="icon" href="{{ `/images/in.png` | absURL }}" type="image/png" sizes="any">
+  {{ "<!-- Favicon -->" | safeHTML }}
+  <link rel="icon" href="{{ `images/in.png` | absURL }}" type="image/png" sizes="32x32">
+  <link rel="icon" href="{{ `images/in.png` | absURL }}" type="image/png" sizes="16x16">
+  <link rel="apple-touch-icon" href="{{ `images/in.png` | absURL }}">
+  <link rel="shortcut icon" href="{{ `images/in.png` | absURL }}" type="image/png">
 
   {{ with site.Params.google_analytics_id }}
 	{{ "<!-- Global Site Tag (gtag.js) - Google Analytics -->" | safeHTML }}
