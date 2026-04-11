@@ -5,21 +5,33 @@
 {{ $toc := .TableOfContents }}
 {{ $hasTOC := in $toc "<li>" }}
 {{ $image := .Params.image }}
+{{ $hasSideColumn := or $image $hasTOC }}
 
 <!-- portfolio -->
 <section class="section pt-5 portfolio-single-page">
   <div class="container">
     <div class="portfolio-hero">
       <div class="row align-items-stretch">
-        {{ with $image }}
-        <div class="col-lg-6 mb-4 mb-lg-0">
-          <figure class="portfolio-media-panel mb-0">
-            <img src="{{ . | absURL }}" class="portfolio-hero-image" alt="{{ $.Title }}">
-          </figure>
+        {{ if $hasSideColumn }}
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <div class="portfolio-side-stack h-100">
+            {{ with $image }}
+            <figure class="portfolio-media-panel mb-0">
+              <img src="{{ . | absURL }}" class="portfolio-hero-image" alt="{{ $.Title }}">
+            </figure>
+            {{ end }}
+
+            {{ if $hasTOC }}
+            <aside class="portfolio-sidebar">
+              <p class="portfolio-sidebar-label">On this page</p>
+              <div class="portfolio-toc">{{ $toc }}</div>
+            </aside>
+            {{ end }}
+          </div>
         </div>
         {{ end }}
 
-        <div class="{{ if $image }}col-lg-6{{ else }}col-lg-12{{ end }}">
+        <div class="{{ if $hasSideColumn }}col-lg-7{{ else }}col-lg-12{{ end }}">
           <div class="portfolio-overview-panel h-100">
             <span class="portfolio-kicker">Project snapshot</span>
             <h2 class="portfolio-headline">{{ .Title }}</h2>
@@ -91,19 +103,10 @@
       </div>
     </div>
 
-    <div class="row justify-content-center align-items-start">
-      <div class="{{ if $hasTOC }}col-lg-8{{ else }}col-lg-10{{ end }}">
+    <div class="row portfolio-content-row">
+      <div class="col-12">
         <article class="portfolio-prose">{{ .Content }}</article>
       </div>
-
-      {{ if $hasTOC }}
-      <div class="col-lg-3 offset-lg-1 mt-5 mt-lg-0">
-        <aside class="portfolio-sidebar">
-          <p class="portfolio-sidebar-label">On this page</p>
-          <div class="portfolio-toc">{{ $toc }}</div>
-        </aside>
-      </div>
-      {{ end }}
     </div>
   </div>
 </section>
