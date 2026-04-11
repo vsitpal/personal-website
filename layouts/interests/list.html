@@ -25,25 +25,21 @@
 <!-- interests intro + content -->
 <section class="section pt-5 interests-page">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-11">
-        <div class="interests-intro">
-          <div class="row align-items-end">
-            <div class="{{ if $hasTOC }}col-lg-8{{ else }}col-lg-10{{ end }}">
-              <span class="interests-eyebrow">What I’m exploring lately</span>
-              <h2 class="interests-headline">Notes, papers, and rabbit holes worth revisiting.</h2>
-              {{ with .Description }}
-              <p class="interests-summary mb-0">{{ . }}</p>
-              {{ end }}
-            </div>
-            <div class="col-lg-4 mt-4 mt-lg-0">
-              <div class="interests-intro-badge">
-                <i class="ti-bookmark-alt"></i>
-                <div>
-                  <strong>{{ .Title }}</strong>
-                  <p class="mb-0">A living collection of technical curiosities, references, and side interests.</p>
-                </div>
-              </div>
+    <div class="interests-intro">
+      <div class="row align-items-end justify-content-center">
+        <div class="{{ if $hasTOC }}col-lg-8{{ else }}col-lg-10{{ end }}">
+          <span class="interests-eyebrow">What I’m exploring lately</span>
+          <h2 class="interests-headline">Notes, papers, and rabbit holes worth revisiting.</h2>
+          {{ with .Description }}
+          <p class="interests-summary mb-0">{{ . }}</p>
+          {{ end }}
+        </div>
+        <div class="{{ if $hasTOC }}col-lg-3 offset-lg-1{{ else }}col-lg-4{{ end }} mt-4 mt-lg-0">
+          <div class="interests-intro-badge">
+            <i class="ti-bookmark-alt"></i>
+            <div>
+              <strong>{{ .Title }}</strong>
+              <p class="mb-0">A living collection of technical curiosities, references, and side interests.</p>
             </div>
           </div>
         </div>
