@@ -61,6 +61,9 @@ skill:
     - title: Rust
       progress: 30%
       color: "#526d8a"
+    - title: CUDA
+      progress: 70%
+      color: "#526d8a"
     - title: Python3
       progress: 90%
       color: "#526d8a"
@@ -80,7 +83,7 @@ skill:
       progress: 80%
       color: "#b07b4f"
     - title: GDB, Make, Lex/Yacc
-      progress: 70%
+      progress: 80%
       color: "#b07b4f"
     - title: Systems Performance Instrumentation
       progress: 70%
@@ -96,6 +99,9 @@ skill:
       color: "#667c66"
     - title: Large Language Models
       progress: 70%
+      color: "#667c66"
+    - title: GenAI Infrastructure
+      progress: 60%
       color: "#667c66"
     - title: Agents and Harnesses
       progress: 70%
