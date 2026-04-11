@@ -11,14 +11,17 @@
 
   <section class="section pt-5 blog-single-page">
     <div class="container">
-      <div class="blog-hero">
+      <div class="row align-items-stretch blog-hero">
         {{ with $image }}
-        <figure class="blog-hero-media mb-4">
-          <img src="{{ . | absURL }}" alt="{{ $.Title }}" class="blog-hero-image">
-        </figure>
+        <div class="col-lg-7 mb-4 mb-lg-0">
+          <figure class="blog-hero-media h-100 mb-0">
+            <img src="{{ . | absURL }}" alt="{{ $.Title }}" class="blog-hero-image">
+          </figure>
+        </div>
         {{ end }}
 
-        <div class="blog-overview-panel">
+        <div class="{{ if $image }}col-lg-5{{ else }}col-12{{ end }}">
+          <div class="blog-overview-panel h-100">
           <span class="blog-kicker">Personal reflection</span>
           <h2 class="blog-headline">{{ .Title }}</h2>
           {{ with .Description }}
@@ -77,6 +80,7 @@
             </div>
           </div>
           {{ end }}
+          </div>
         </div>
       </div>
 

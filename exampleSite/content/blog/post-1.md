@@ -1,8 +1,8 @@
 ---
 title: "CMU & I"
 date: 2024-10-04T00:00:00Z
-image: "images/blog/post-6.jpg"
-description: "Blog by Vikram on his time and relationship with CMU"
+image: "images/blog/post-4.jpg"
+description: "A personal reflection on growth, grit, and love during my time at CMU"
 tags:
   - "CMU"
   - "Systems Programming"
