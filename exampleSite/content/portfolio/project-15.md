@@ -20,15 +20,13 @@ So my code changes add a completely new feature, a key-value database built on t
 
 Three GitHub repositories have my work:
 
-1. [Feature Code](https://github.com/vikramrajsitpal/openafs/tree/gsoc-22-ri)
-   - Tag (3 commits starting this tag): `gsoc-2022-ri-final`
+- **Feature Code**: [Repository](https://github.com/vikramrajsitpal/openafs/tree/gsoc-22-ri)
+  - Tag (3 commits starting this tag): `gsoc-2022-ri-final`
 
-2. Test Library Code:
-   - [Repository](https://github.com/vikramrajsitpal/robotframework-openafslibrary/tree/gsoc-ri)
-   - Pull Requests:
-     - [PR 1](https://github.com/openafs-contrib/robotframework-openafslibrary/pull/3)
-     - [PR 2](https://github.com/openafs-contrib/robotframework-openafslibrary/pull/4)
+- **Test Library Code**: [Repository](https://github.com/vikramrajsitpal/robotframework-openafslibrary/tree/gsoc-ri)
+  - Pull Requests:
+    - [PR 1](https://github.com/openafs-contrib/robotframework-openafslibrary/pull/3)
+    - [PR 2](https://github.com/openafs-contrib/robotframework-openafslibrary/pull/4)
 
-3. Test scripts:
-   - [Repository](https://github.com/vikramrajsitpal/openafs-robotest/tree/gsoc-ri)
-   - [PR](https://github.com/openafs-contrib/openafs-robotest/pull/31)
+- **Test scripts**: [Repository](https://github.com/vikramrajsitpal/openafs-robotest/tree/gsoc-ri)
+  - [PR](https://github.com/openafs-contrib/openafs-robotest/pull/31)
