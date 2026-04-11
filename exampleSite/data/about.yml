@@ -4,10 +4,10 @@ work_process:
   title: Education
   item:
   - title: Carnegie Mellon University, Pittsburgh, PA
-    icon: "/images/cmu.jpg"
+    icon: "/images/cmu.png"
     content: Master of Science in Information Networking (Computer Systems) [2019-2021]
   - title: Vellore Institute of Technology, Vellore, IN
-    icon: images/vit.jpg
+    icon: images/vit.png
     content: Bachelor of Technology in Computer Science and Engineering [2012-2016]
   - title: The Air Force School, New Delhi, IN
     icon: images/tafs.png
