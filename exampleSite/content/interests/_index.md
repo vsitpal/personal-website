@@ -1,6 +1,6 @@
 ---
 title: "Dabbles"
-description: "My scholarly interests"
+description: "My scholarly interests powered by NotebookLM"
 draft: false
 ---
 
@@ -17,6 +17,9 @@ Here are some research papers I have been reading and found them interesting!
 
 #### **Machine Learning**
 
+* [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/pdf/2504.19413)
+* [A-Mem: Agentic Memory for LLM Agents](https://arxiv.org/pdf/2502.12110)
+* [Meta-Harness: End-to-End Optimization of Model Harnesses](https://www.alphaxiv.org/abs/2603.28052)
 
 
 ### **Books**

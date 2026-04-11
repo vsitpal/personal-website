@@ -8,11 +8,9 @@
   {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 
-  <style>
-    :root{
-      --primary-color:{{ site.Params.theme_color }};
-    }
-  </style>
+  {{ with site.Params.theme_color }}
+  {{ printf "<style>:root{--primary-color:%s;}</style>" . | safeHTML }}
+  {{ end }}
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css }}
