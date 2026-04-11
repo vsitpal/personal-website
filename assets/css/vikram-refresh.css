@@ -490,6 +490,7 @@ h6,
   color: var(--body-color);
   font-size: 18px;
   line-height: 2;
+  text-align: justify;
 }
 
 .blog-prose p {
@@ -497,7 +498,7 @@ h6,
 }
 
 .blog-prose>* {
-  max-width: 64ch;
+  max-width: min(100%, clamp(68ch, 82vw, 100ch));
 }
 
 .blog-prose>h2,
