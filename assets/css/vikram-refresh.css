@@ -334,10 +334,11 @@ h6,
 }
 
 .blog-summary {
-  max-width: 52ch;
+  max-width: 64ch;
   font-size: 18px;
   line-height: 1.95;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .blog-meta-grid {
