@@ -1,6 +1,6 @@
 ---
 title: "Dabbles"
-description: "My interests apart from work"
+description: "My scholarly interests"
 draft: false
 ---
 
