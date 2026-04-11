@@ -2,60 +2,108 @@
 
 {{ partial "page-title.html" . }}
 
+{{ $toc := .TableOfContents }}
+{{ $hasTOC := in $toc "<li>" }}
+{{ $image := .Params.image }}
+
 <!-- portfolio -->
-<section class="section">
+<section class="section pt-5 portfolio-single-page">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-5 mb-5">
-        <img src="{{ .Params.image | absURL }}" class="img-fluid w-100" alt="{{ .Title }}">
-      </div>
-      <div class="col-lg-7 mb-5 mb-lg-0 align-self-center">
-        <div class="row mx-0">
-          <div class="col-sm-6 mb-5">
-            <div class="project-meta">
-              <i class="ti-calendar"></i>
-              <div class="ml-3">
-                <h4>Date</h4>
-                <p>{{ .PublishDate.Format "Jan 02, 2006" }}</p>
+    <div class="portfolio-hero">
+      <div class="row align-items-stretch">
+        {{ with $image }}
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <figure class="portfolio-media-panel mb-0">
+            <img src="{{ . | absURL }}" class="portfolio-hero-image" alt="{{ $.Title }}">
+          </figure>
+        </div>
+        {{ end }}
+
+        <div class="{{ if $image }}col-lg-6{{ else }}col-lg-12{{ end }}">
+          <div class="portfolio-overview-panel h-100">
+            <span class="portfolio-kicker">Project snapshot</span>
+            <h2 class="portfolio-headline">{{ .Title }}</h2>
+            {{ with .Description }}
+            <p class="portfolio-summary">{{ . }}</p>
+            {{ end }}
+
+            <div class="row portfolio-meta-grid">
+              <div class="col-sm-6">
+                <div class="portfolio-meta-card">
+                  <span class="portfolio-meta-icon"><i class="ti-calendar"></i></span>
+                  <div class="portfolio-meta-copy">
+                    <span class="portfolio-meta-label">Date</span>
+                    <div class="portfolio-meta-value">
+                      <p>{{ .PublishDate.Format "Jan 02, 2006" }}</p>
+                    </div>
+                  </div>
+                </div>
               </div>
+
+              {{ with .Params.client }}
+              <div class="col-sm-6">
+                <div class="portfolio-meta-card">
+                  <span class="portfolio-meta-icon"><i class="ti-user"></i></span>
+                  <div class="portfolio-meta-copy">
+                    <span class="portfolio-meta-label">Developed at</span>
+                    <div class="portfolio-meta-value">{{ . | markdownify }}</div>
+                  </div>
+                </div>
+              </div>
+              {{ end }}
+
+              {{ with .Params.categories }}
+              <div class="col-sm-6">
+                <div class="portfolio-meta-card">
+                  <span class="portfolio-meta-icon"><i class="ti-folder"></i></span>
+                  <div class="portfolio-meta-copy">
+                    <span class="portfolio-meta-label">Focus areas</span>
+                    <div class="portfolio-chip-list">
+                      {{ range . }}
+                      <span class="portfolio-chip">{{ . }}</span>
+                      {{ end }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {{ end }}
+
+              {{ with .Params.project_url }}
+              <div class="col-sm-6">
+                <div class="portfolio-meta-card">
+                  <span class="portfolio-meta-icon"><i class="ti-link"></i></span>
+                  <div class="portfolio-meta-copy">
+                    <span class="portfolio-meta-label">Project link</span>
+                    <div class="portfolio-meta-value">
+                      {{ if or (hasPrefix . "https://") (hasPrefix . "http://") }}
+                      <a href="{{ . }}" target="_blank" rel="noopener noreferrer">Open project link</a>
+                      {{ else }}
+                      {{ . | markdownify }}
+                      {{ end }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {{ end }}
             </div>
           </div>
-          {{ with .Params.Client}}
-          <div class="col-sm-6 mb-5">
-            <div class="project-meta">
-              <i class="ti-user"></i>
-              <div class="ml-3">
-                <h4>Developed at</h4>
-                <p>{{. | markdownify}}</p>
-              </div>
-            </div>
-          </div>
-          {{ end }}
-          <div class="col-sm-6 mb-5">
-            <div class="project-meta">
-              <i class="ti-folder"></i>
-              <div class="ml-3">
-                <h4>Category</h4>
-                <p>{{ delimit .Params.categories ", " | humanize }}</p>
-              </div>
-            </div>
-          </div>
-          {{ with .Params.project_url}}
-          <div class="col-sm-6 mb-5">
-            <div class="project-meta">
-              <i class="ti-link"></i>
-              <div class="ml-3">
-                <h4>Project Link (if Public)</h4>
-                <p>{{. | markdownify}}</p>
-              </div>
-            </div>
-          </div>
-          {{ end }}
         </div>
       </div>
-      <div class="col-lg-11">
-        <div class="content">{{.Content}}</div>
+    </div>
+
+    <div class="row justify-content-center align-items-start">
+      <div class="{{ if $hasTOC }}col-lg-8{{ else }}col-lg-10{{ end }}">
+        <article class="portfolio-prose">{{ .Content }}</article>
       </div>
+
+      {{ if $hasTOC }}
+      <div class="col-lg-3 offset-lg-1 mt-5 mt-lg-0">
+        <aside class="portfolio-sidebar">
+          <p class="portfolio-sidebar-label">On this page</p>
+          <div class="portfolio-toc">{{ $toc }}</div>
+        </aside>
+      </div>
+      {{ end }}
     </div>
   </div>
 </section>
