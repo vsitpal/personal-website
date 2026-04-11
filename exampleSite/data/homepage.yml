@@ -53,8 +53,8 @@ skill:
       progress: 70%
       color: "#2f6b75"
     - title: Formal Verification
-      progress: 40%
-      color: "#3d607b"
+      progress: 30%
+      color: "#2f6b75"
     - title: C
       progress: 90%
       color: "#526d8a"
@@ -139,7 +139,7 @@ service:
 portfolio:
   enable: true
   title: Project Portfolio
-  item_show: "6"
+  item_show: "8"
 testimonial:
   enable: true
   title: Recommendations

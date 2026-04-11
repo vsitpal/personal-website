@@ -981,8 +981,7 @@ h6,
 }
 
 .portfolio-sidebar {
-  position: static;
-  top: auto;
+  position: relative;
   padding: 24px 24px 26px;
   border-radius: 28px;
 }
@@ -1041,7 +1040,7 @@ h6,
   }
 
   .portfolio-sidebar {
-    position: static;
+    position: relative;
   }
 }
 
