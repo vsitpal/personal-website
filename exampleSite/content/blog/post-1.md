@@ -9,7 +9,6 @@ tags:
   - "Machine Learning"
   - "Campus Life"
   - "Personal Growth"
-  - "COVID-19"
 draft: false
 ---
 

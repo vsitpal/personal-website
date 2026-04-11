@@ -12,91 +12,83 @@
   <section class="section pt-5 blog-single-page">
     <div class="container">
       <div class="blog-hero">
-        <div class="row align-items-stretch">
-          {{ if $image }}
-          <div class="col-lg-4 mb-4 mb-lg-0">
-            <div class="blog-hero-media-wrap h-100">
-              <figure class="blog-hero-media mb-0">
-                <img src="{{ $image | absURL }}" alt="{{ .Title }}" class="blog-hero-image">
-              </figure>
+        {{ with $image }}
+        <figure class="blog-hero-media mb-4">
+          <img src="{{ . | absURL }}" alt="{{ $.Title }}" class="blog-hero-image">
+        </figure>
+        {{ end }}
+
+        <div class="blog-overview-panel">
+          <span class="blog-kicker">Personal reflection</span>
+          <h2 class="blog-headline">{{ .Title }}</h2>
+          {{ with .Description }}
+          <p class="blog-summary">{{ . }}</p>
+          {{ end }}
+
+          <div class="row blog-meta-grid">
+            <div class="col-sm-6 col-lg-3">
+              <div class="blog-meta-card">
+                <span class="blog-meta-icon"><i class="ti-calendar"></i></span>
+                <div class="blog-meta-copy">
+                  <span class="blog-meta-label">Published</span>
+                  <div class="blog-meta-value">{{ .PublishDate.Format "Jan 02, 2006" }}</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+              <div class="blog-meta-card">
+                <span class="blog-meta-icon"><i class="ti-user"></i></span>
+                <div class="blog-meta-copy">
+                  <span class="blog-meta-label">Written by</span>
+                  <div class="blog-meta-value">{{ site.Params.Author }}</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+              <div class="blog-meta-card">
+                <span class="blog-meta-icon"><i class="ti-timer"></i></span>
+                <div class="blog-meta-copy">
+                  <span class="blog-meta-label">Read time</span>
+                  <div class="blog-meta-value">{{ $readingTime }} min read</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+              <div class="blog-meta-card">
+                <span class="blog-meta-icon"><i class="ti-align-left"></i></span>
+                <div class="blog-meta-copy">
+                  <span class="blog-meta-label">Length</span>
+                  <div class="blog-meta-value">{{ $wordCount }} words</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {{ with $tags }}
+          <div class="blog-tag-section">
+            <span class="blog-tag-label">Tags</span>
+            <div class="blog-tag-list">
+              {{ range . }}
+              <span class="blog-tag">{{ . }}</span>
+              {{ end }}
             </div>
           </div>
           {{ end }}
-
-          <div class="{{ if $image }}col-lg-8{{ else }}col-lg-12{{ end }}">
-            <div class="blog-overview-panel h-100">
-              <span class="blog-kicker">Personal reflection</span>
-              <h2 class="blog-headline">{{ .Title }}</h2>
-              {{ with .Description }}
-              <p class="blog-summary">{{ . }}</p>
-              {{ end }}
-
-              <div class="row blog-meta-grid">
-                <div class="col-sm-6">
-                  <div class="blog-meta-card">
-                    <span class="blog-meta-icon"><i class="ti-calendar"></i></span>
-                    <div class="blog-meta-copy">
-                      <span class="blog-meta-label">Published</span>
-                      <div class="blog-meta-value">{{ .PublishDate.Format "Jan 02, 2006" }}</div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6">
-                  <div class="blog-meta-card">
-                    <span class="blog-meta-icon"><i class="ti-user"></i></span>
-                    <div class="blog-meta-copy">
-                      <span class="blog-meta-label">Written by</span>
-                      <div class="blog-meta-value">{{ site.Params.Author }}</div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6">
-                  <div class="blog-meta-card">
-                    <span class="blog-meta-icon"><i class="ti-timer"></i></span>
-                    <div class="blog-meta-copy">
-                      <span class="blog-meta-label">Read time</span>
-                      <div class="blog-meta-value">{{ $readingTime }} min read</div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6">
-                  <div class="blog-meta-card">
-                    <span class="blog-meta-icon"><i class="ti-align-left"></i></span>
-                    <div class="blog-meta-copy">
-                      <span class="blog-meta-label">Length</span>
-                      <div class="blog-meta-value">{{ $wordCount }} words</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {{ with $tags }}
-              <div class="blog-tag-section">
-                <span class="blog-tag-label">Tags</span>
-                <div class="blog-tag-list">
-                  {{ range . }}
-                  <span class="blog-tag">{{ . }}</span>
-                  {{ end }}
-                </div>
-              </div>
-              {{ end }}
-            </div>
-          </div>
         </div>
       </div>
 
       <div class="row justify-content-center align-items-start blog-content-row">
-        <div class="{{ if $hasTOC }}col-lg-7 col-xl-8{{ else }}col-lg-8 col-xl-9{{ end }}">
+        <div class="{{ if $hasTOC }}col-lg-8{{ else }}col-lg-12{{ end }}">
           <article class="blog-prose">
             {{ .Content }}
           </article>
         </div>
 
         {{ if $hasTOC }}
-        <div class="col-lg-4 col-xl-3 pl-lg-4 mt-5 mt-lg-0">
+        <div class="col-lg-4 pl-lg-3 mt-4 mt-lg-0">
           <aside class="blog-sidebar">
             <p class="blog-sidebar-label">On this page</p>
             <div class="blog-toc">{{ $toc }}</div>
