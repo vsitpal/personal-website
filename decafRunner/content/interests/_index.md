@@ -24,10 +24,21 @@ Here are some research papers I have been reading and found them interesting!
 
 ### **Books**
 
+* [Compilers: Principles, Techniques, and Tools](https://www.goodreads.com/book/show/112262.Compilers)
+
 
 
 ### **Videos and Podcasts**
 
+* [Monty - Python in Rust for AI](https://talkpython.fm/episodes/show/541/monty-python-in-rust-for-ain)
 
+
+
+## Personal Topics
+
+### **Books**
+
+* [The Cosmic Code: Quantum Physics as the Language of Nature](https://www.goodreads.com/book/show/173222.The_Cosmic_Code)
+* [The Biology of Belief: Unleashing the Power of Consciousness, Matter and Miracles](https://www.goodreads.com/book/show/90556.The_Biology_of_Belief)
 
 
