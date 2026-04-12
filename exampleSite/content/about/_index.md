@@ -14,7 +14,7 @@ I hold a master’s degree from Carnegie Mellon University, where I focused on C
 
 In the long run, I hope to contribute meaningfully to open-source systems and infrastructure projects and stay actively involved in the broader open-source ecosystem—where strong ideas, careful engineering, and collaboration move technology forward.
 
-`I love systems development, aircraft, trails, and bimmers.`
+> I love systems development, aircraft, trails, and bimmers.
 
 
 
@@ -24,7 +24,7 @@ In my free time, I enjoy reading spy-fiction and philosophical novels. I like li
 
 I also enjoy reading about birds and plants, and once in a while take a shot at photography.
 
-`Also, did I say that already? I love aircrafts. And computer systems.`
+> Also, did I say that already? I love aircrafts. And computer systems.
 
 
 
