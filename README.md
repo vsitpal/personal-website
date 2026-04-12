@@ -6,7 +6,7 @@ Personal website for Vikramraj Sitpal — powered by GenAI, good taste, and just
 
 This repo contains the source for my personal website: writing, projects, interests, and assorted systems-flavored internet presence.
 
-Website: https://vikramrajsitpal.netlify.app
+Website: https://0xdecaf.run
 
 ## Built with
 
