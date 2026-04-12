@@ -2,7 +2,7 @@
 
   <!-- hero area -->
   <section class="hero-area bg-primary overflow-hidden" id="parallax">
-    {{ with site.Data.homepage.banner }}
+    {{ with hugo.Data.homepage.banner }}
     <div class="container hero-content">
       <div class="row align-items-center">
         <div class="col-lg-7">
@@ -71,14 +71,14 @@
   </section>
   <!-- /hero area -->
 
-  {{ if site.Data.homepage.about.enable }}
+  {{ if hugo.Data.homepage.about.enable }}
   <!-- about -->
   <section class="section section-soft">
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <div class="intro-panel text-justify">
-          {{ with site.Data.homepage.about }}
+          {{ with hugo.Data.homepage.about }}
           <div class="lead text-dark intro-copy">{{.content | markdownify}}</div>
           {{ if .button.enable }}
           {{ with .button }}
@@ -97,8 +97,8 @@
   {{ end }}
 
 
-  {{ if site.Data.homepage.skill.enable }}
-  {{ with site.Data.homepage.skill }}
+  {{ if hugo.Data.homepage.skill.enable }}
+  {{ with hugo.Data.homepage.skill }}
   <!-- skills -->
   <section class="section section-skills">
     <div class="container">
@@ -125,8 +125,8 @@
   {{ end }}
   {{ end }}
 
-  {{ if site.Data.homepage.experience.enable }}
-  {{ with site.Data.homepage.experience }}
+  {{ if hugo.Data.homepage.experience.enable }}
+  {{ with hugo.Data.homepage.experience }}
   <!-- experience -->
   <section class="section section-muted">
     <div class="container">
@@ -153,8 +153,8 @@
   {{ end }}
   {{ end }}
 
-  {{ if site.Data.homepage.education.enable }}
-  {{ with site.Data.homepage.education }}
+  {{ if hugo.Data.homepage.education.enable }}
+  {{ with hugo.Data.homepage.education }}
   <!-- education -->
   <section class="section position-relative">
     <div class="container">
@@ -186,8 +186,8 @@
   {{ end }}
 
 
-  {{ if site.Data.homepage.service.enable }}
-  {{ with site.Data.homepage.service }}
+  {{ if hugo.Data.homepage.service.enable }}
+  {{ with hugo.Data.homepage.service }}
   <!-- services -->
   <section class="section section-soft">
     <div class="container">
@@ -214,17 +214,17 @@
   {{ end }}
 
 
-  {{ if site.Data.homepage.portfolio.enable }}
+  {{ if hugo.Data.homepage.portfolio.enable }}
   <!-- portfolio -->
   <section class="section">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h2 class="section-title">{{ site.Data.homepage.portfolio.title | markdownify }}</h2>
+          <h2 class="section-title">{{ hugo.Data.homepage.portfolio.title | markdownify }}</h2>
         </div>
       </div>
       <div class="row shuffle-wrapper">
-        {{ $item:= site.Data.homepage.portfolio.item_show }}
+        {{ $item:= hugo.Data.homepage.portfolio.item_show }}
         {{ range first $item (where .Site.RegularPages "Section" "portfolio") }}
         <div class="col-lg-4 col-6 mb-4 shuffle-item">
           <div class="position-relative rounded hover-wrapper">
@@ -244,8 +244,8 @@
   {{ end }}
 
 
-  {{ if site.Data.homepage.testimonial.enable }}
-  {{ with site.Data.homepage.testimonial }}
+  {{ if hugo.Data.homepage.testimonial.enable }}
+  {{ with hugo.Data.homepage.testimonial }}
   <!-- testimonial -->
   <section class="section bg-primary position-relative testimonial-bg-shapes section-testimonial">
     <div class="container">
@@ -280,7 +280,7 @@
   {{ end }}
 
 
-  {{ if site.Data.homepage.clients_logo_slider.enable }}
+  {{ if hugo.Data.homepage.clients_logo_slider.enable }}
   <!-- client logo slider -->
   <section class="section pb-0">
     <div class="container">
@@ -290,13 +290,13 @@
   <!-- /client logo slider -->
   {{ end }}
 
-  {{ if site.Data.homepage.blog.enable }}
+  {{ if hugo.Data.homepage.blog.enable }}
   <!-- blog -->
   <section class="section section-soft">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h2 class="section-title">{{site.Data.homepage.blog.title | markdownify }}</h2>
+          <h2 class="section-title">{{hugo.Data.homepage.blog.title | markdownify }}</h2>
         </div>
         {{ range first 3 (where .Site.RegularPages "Section" "blog")}}
         {{ .Render "post" }}

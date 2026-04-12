@@ -67,8 +67,8 @@
 <!-- /interests intro + content -->
 
 <!-- team -->
-{{ if site.Data.interests.team.enable }}
-{{ with site.Data.interests.team }}
+{{ if hugo.Data.interests.team.enable }}
+{{ with hugo.Data.interests.team }}
 <section class="section bg-cover" data-background="{{`images/backgrounds/team-bg.png`|relURL}}">
   <div class="container">
     <div class="row wall-grid">
@@ -95,12 +95,12 @@
 {{ end }}
 <!-- /team -->
 
-{{ if site.Data.interests.clients_logo_slider.enable }}
+{{ if hugo.Data.interests.clients_logo_slider.enable }}
 <section class="section">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">{{ site.Data.interests.clients_logo_slider.title | markdownify }}</h2>
+        <h2 class="section-title">{{ hugo.Data.interests.clients_logo_slider.title | markdownify }}</h2>
       </div>
     </div>
     {{ partial "client-slider.html" . }}
