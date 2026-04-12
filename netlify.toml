@@ -1,6 +1,6 @@
 [build]
   publish = "decafRunner/public"
-  command = "cd decafRunner && hugo --gc --themesDir ../.."
+  command = "cd decafRunner && hugo --gc"
   
 [build.environment]
   HUGO_VERSION = "0.160.1"
