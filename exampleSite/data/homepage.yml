@@ -21,11 +21,11 @@ about:
   enable: true
   content: |-
     Hello, I’m Vikram!
-    I’m a systems developer, but I’m more interested in understanding the underlying principles that make systems tick than in the code itself. My work often involves delving into complex technical challenges, and I enjoy the process of breaking things down and finding elegant solutions.
-    I have a master’s degree from Carnegie Mellon University (Pittsburgh), where I concentrated on Computer Systems & Security, with a strong interest in Machine Learning and Business Management. I focus primarily on Operating Systems, Storage Systems, Computer Architecture, Networking, and Distributed Systems. Over the years, I’ve also gained experience in Embedded Systems. I’m also exploring the systems side of ML infrastructure and given my background in CS and Computer Architecture, I find it extremely interesting! ML side is fun too, but not as much as the system side. The deeper I go, the more fascinating it becomes.
-    At the moment, I’m a Database Kernel Developer at Oracle (which is super fun), working in the Virtual Operating Systems team in Redwood Shores.
-    Looking ahead, I plan to contribute to open-source projects and be involved in the broader open-source ecosystem—where collaboration and transparency drive innovation.
-    If you’d like to discuss systems development, aircraft, hiking, ships, submarines, or bimmers, feel free to reach out. I’m always open to a good conversation!
+    I’m a **systems developer** who is far more interested in the **principles** that make complex systems tick than in code for its own sake. I enjoy diving into hard technical problems, breaking them down to their fundamentals, and finding **elegant solutions**.
+    I earned my master’s degree from **Carnegie Mellon University** in Pittsburgh, where I focused on **Computer Systems & Security** and developed a strong interest in **Machine Learning** and **Business Management**. My core areas are **Operating Systems**, **Storage Systems**, **Computer Architecture**, **Networking**, and **Distributed Systems**, and over the years I’ve also built experience in **Embedded Systems**. More recently, I’ve been exploring the systems side of **ML infrastructure**—a space I find especially compelling because it sits at the intersection of systems, scale, and architecture.
+    Right now, I’m a **Senior Database Kernel Developer/Lead/Manager** at **Oracle**, working on the **Virtual Operating Systems** team in Redwood Shores.
+    Looking ahead, I want to contribute more deeply to **open source** and be an active part of the broader open-source ecosystem, where **collaboration** and **transparency** help drive meaningful innovation.
+    If you’d like to talk about **systems development**, **aircraft**, **hiking**, **ships**, **submarines**, or **bimmers**, feel free to reach out—I’m always up for a good conversation.
   button:
     enable: true
     label: Read more about me...
