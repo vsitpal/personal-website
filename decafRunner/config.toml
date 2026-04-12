@@ -1,7 +1,6 @@
 baseURL = "https://0xdecaf.run"
 languageCode = "en-us"
 summaryLength = "10"
-theme = "kross-hugo"
 title = "Vikram's Den"
 [[menu.main]]
 URL = "about"
