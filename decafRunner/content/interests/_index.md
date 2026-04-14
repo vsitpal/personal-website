@@ -19,7 +19,7 @@ Here are some research papers I have been reading and found them interesting!
 
 * [Rethinking Analytical Processing in the GPU Era](https://vldb.org/cidrdb/papers/2026/p12-yogatama.pdf)
 
-#### **Machine Learning**
+#### **Machine Learning and AI**
 
 * [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/pdf/2504.19413)
 
@@ -30,6 +30,16 @@ Here are some research papers I have been reading and found them interesting!
 * [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180)
 
 * [BEAVER: An Enterprise Benchmark for Text-to-SQL](https://arxiv.org/pdf/2409.02038)
+
+### **Articles**
+
+#### **Systems**
+
+* [Decomposing Transactional Systems](https://transactional.blog/blog/2025-decomposing-transactional-systems)
+
+#### **Machine Learning and AI**
+
+* [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps)
 
 ### **Books**
 

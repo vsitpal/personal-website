@@ -4,6 +4,17 @@ const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
 
+const ANSI = {
+  reset: '\u001b[0m',
+  clearScreen: '\u001b[2J',
+  clearLine: '\u001b[2K',
+  cursorHome: '\u001b[H',
+  hideCursor: '\u001b[?25l',
+  showCursor: '\u001b[?25h',
+  inverse: '\u001b[7m',
+  dim: '\u001b[2m',
+};
+
 const INTERESTS_FILE = path.join(__dirname, '..', 'decafRunner', 'content', 'interests', '_index.md');
 
 function readInterestsFile() {
@@ -91,6 +102,131 @@ function askQuestion(rl, question) {
   return new Promise((resolve) => rl.question(question, (answer) => resolve(answer.trim())));
 }
 
+function isInteractiveTerminal() {
+  return Boolean(process.stdin.isTTY && process.stdout.isTTY);
+}
+
+function renderHighlightedHeadingMenu(headings, selectedIndex) {
+  const lines = [
+    `${ANSI.clearScreen}${ANSI.cursorHome}${ANSI.hideCursor}`,
+    'Choose where to add the entry:\n',
+    `${ANSI.dim}Use ↑/↓ to move, Enter to select, or type a filter.${ANSI.reset}`,
+    '',
+  ];
+
+  headings.forEach((heading, index) => {
+    const prefix = index === selectedIndex ? `${ANSI.inverse}> ${heading.breadcrumb}${ANSI.reset}` : `  ${heading.breadcrumb}`;
+    lines.push(prefix);
+  });
+
+  lines.push('');
+  process.stdout.write(lines.join('\n'));
+}
+
+function waitForSelectionResult(promise) {
+  return new Promise((resolve, reject) => {
+    promise.then(resolve).catch(reject);
+  });
+}
+
+function chooseHeadingWithHighlight(headings) {
+  return new Promise((resolve, reject) => {
+    if (!headings.length) {
+      reject(new Error('No headings available to choose from.'));
+      return;
+    }
+
+    readline.emitKeypressEvents(process.stdin);
+
+    const wasRawMode = Boolean(process.stdin.isRaw);
+    let selectedIndex = 0;
+    let query = '';
+    let activeHeadings = headings;
+
+    const cleanup = () => {
+      process.stdin.removeListener('keypress', handleKeypress);
+      if (process.stdin.isTTY) {
+        process.stdin.setRawMode(wasRawMode);
+      }
+      process.stdout.write(`${ANSI.reset}${ANSI.showCursor}`);
+    };
+
+    const rerender = () => {
+      renderHighlightedHeadingMenu(activeHeadings, selectedIndex);
+      if (query) {
+        process.stdout.write(`Filter: ${query}\n`);
+      }
+    };
+
+    const updateFilter = () => {
+      const normalized = query.trim().toLowerCase();
+      activeHeadings = normalized
+        ? headings.filter((heading) => heading.breadcrumb.toLowerCase().includes(normalized) || heading.title.toLowerCase().includes(normalized))
+        : headings;
+
+      if (!activeHeadings.length) {
+        activeHeadings = headings;
+      }
+
+      if (selectedIndex >= activeHeadings.length) {
+        selectedIndex = 0;
+      }
+
+      rerender();
+    };
+
+    const handleKeypress = (str, key = {}) => {
+      if (key.ctrl && key.name === 'c') {
+        cleanup();
+        reject(new Error('Selection cancelled.'));
+        return;
+      }
+
+      if (key.name === 'return') {
+        const selected = activeHeadings[selectedIndex];
+        cleanup();
+        process.stdout.write('\n');
+        resolve(selected);
+        return;
+      }
+
+      if (key.name === 'up') {
+        selectedIndex = (selectedIndex - 1 + activeHeadings.length) % activeHeadings.length;
+        rerender();
+        return;
+      }
+
+      if (key.name === 'down') {
+        selectedIndex = (selectedIndex + 1) % activeHeadings.length;
+        rerender();
+        return;
+      }
+
+      if (key.name === 'backspace') {
+        query = query.slice(0, -1);
+        updateFilter();
+        return;
+      }
+
+      if (!key.ctrl && !key.meta && str && str.trim()) {
+        query += str;
+        updateFilter();
+      }
+    };
+
+    if (process.stdin.isTTY) {
+      process.stdin.setRawMode(true);
+    }
+
+    if (typeof process.stdin.resume === 'function') {
+      process.stdin.resume();
+    }
+
+    process.stdin.on('keypress', handleKeypress);
+    rerender();
+  });
+}
+
 function normalizeLine(line) {
   return line.replace(/\r$/, '');
 }
@@ -170,6 +306,16 @@ function insertEntry(content, selectedHeading, title, url) {
 }
 
 async function chooseHeadingInteractively(rl, headings) {
+  if (isInteractiveTerminal()) {
+    rl.pause();
+
+    try {
+      return await waitForSelectionResult(chooseHeadingWithHighlight(headings));
+    } finally {
+      rl.resume();
+    }
+  }
+
   console.log('\nChoose where to add the entry:\n');
   headings.forEach((heading, index) => {
     console.log(`  ${index + 1}. ${heading.breadcrumb}`);
