@@ -1004,15 +1004,50 @@ h6,
 
 .interests-intro-badge strong {
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 2px;
   color: var(--heading-color);
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 700;
+  letter-spacing: -.02em;
+  line-height: 1.15;
 }
 
 .interests-intro-badge p {
   color: var(--body-color);
   line-height: 1.7;
+}
+
+.interests-intro-badge-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.interests-intro-badge-label {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(74, 143, 157, .12);
+  color: var(--primary-color);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.interests-intro-badge-timestamp {
+  display: inline-flex;
+  align-self: flex-start;
+  margin-top: 2px;
+  padding: 8px 12px;
+  border-radius: 14px;
+  background: rgba(19, 40, 60, .05);
+  color: var(--heading-color);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: .01em;
 }
 
 .interests-prose,

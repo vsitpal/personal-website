@@ -37,11 +37,9 @@
         </div>
         <div class="{{ if $hasTOC }}col-lg-3 offset-lg-1{{ else }}col-lg-4{{ end }} mt-4 mt-lg-0">
           <div class="interests-intro-badge">
-            <i class="ti-bookmark-alt"></i>
-            <div>
-              <strong>{{ .Title }}</strong>
-              <p class="mb-0">A living collection of curiosities, references, and side interests.</p>
-              <p class="mb-0 mt-2"><small>Last updated: {{ time $lastUpdated | dateFormat "Monday, Jan 2, 2006, 15:04" }}</small></p>
+            <i class="ti-time"></i>
+            <div class="interests-intro-badge-copy">
+              <p class="interests-intro-badge-timestamp mb-0">Updated: {{ time $lastUpdated | dateFormat "Monday, Jan 2, 2006, 15:04" }} PT</p>
             </div>
           </div>
         </div>
