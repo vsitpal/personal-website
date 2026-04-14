@@ -1,9 +1,9 @@
 {
-  "name": "personal-website",
+  "name": "personal-website-scripts",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "add:interest": "node scripts/add-interest-entry.js"
+    "add:interest": "node add-interest-entry.js"
   },
   "dependencies": {
     "tinacms": "^2.2.9"

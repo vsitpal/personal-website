@@ -15,7 +15,6 @@ Website: https://0xdecaf.run
 - GenAI assistance
 - Vikram doing the final judging
 
-
 ## Note
 
 If something looks polished, thank GenAI.
@@ -25,9 +24,13 @@ If something looks obsessive, that was probably Vikram.
 
 Your personal/technical links on the interests page live in `decafRunner/content/interests/_index.md`.
 
-Use:
+The helper script and its Node metadata now live under `scripts/` so Netlify does not treat the repo root as a Node project.
+
+For local edits:
 
 ```bash
+cd scripts
+npm install
 npm run add:interest
 ```
 
@@ -40,6 +43,7 @@ The script will:
 You can also use it non-interactively:
 
 ```bash
+cd scripts
 npm run add:interest -- --section "Technical topics > Research Papers > Systems" --title "Paper name" --url "https://example.com"
 ```
 
@@ -47,5 +51,7 @@ npm run add:interest -- --section "Technical topics > Research Papers > Systems"
 - the menu number
 - the full breadcrumb path
 - or just the heading title
+
+This script is intended for making local content changes first; commit the updated markdown afterward and then deploy the site separately.
 
 Only last-level / leaf headings are valid insertion targets.
