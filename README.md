@@ -20,3 +20,32 @@ Website: https://0xdecaf.run
 
 If something looks polished, thank GenAI.
 If something looks obsessive, that was probably Vikram.
+
+## Updating the interests page quickly
+
+Your personal/technical links on the interests page live in `decafRunner/content/interests/_index.md`.
+
+Use:
+
+```bash
+npm run add:interest
+```
+
+The script will:
+- detect headings dynamically from `_index.md`
+- show you a numbered menu of leaf subsection choices only
+- ask for the entry title and link
+- insert the new item using the same existing markdown format: `* [Title](URL)`
+
+You can also use it non-interactively:
+
+```bash
+npm run add:interest -- --section "Technical topics > Research Papers > Systems" --title "Paper name" --url "https://example.com"
+```
+
+`--section` accepts either:
+- the menu number
+- the full breadcrumb path
+- or just the heading title
+
+Only last-level / leaf headings are valid insertion targets.
