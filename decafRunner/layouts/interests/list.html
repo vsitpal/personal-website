@@ -2,6 +2,7 @@
 
 {{ $toc := .TableOfContents }}
 {{ $hasTOC := in $toc "<li>" }}
+{{ $lastUpdated := .Params.last_updated | default .Lastmod }}
 
 <!-- page title -->
 <section class="page-title-alt bg-primary position-relative overflow-hidden">
@@ -39,7 +40,8 @@
             <i class="ti-bookmark-alt"></i>
             <div>
               <strong>{{ .Title }}</strong>
-              <p class="mb-0">A living collection of technical curiosities, references, and side interests.</p>
+              <p class="mb-0">A living collection of curiosities, references, and side interests.</p>
+              <p class="mb-0 mt-2"><small>Last updated: {{ time $lastUpdated | dateFormat "Monday, Jan 2, 2006, 15:04" }}</small></p>
             </div>
           </div>
         </div>
