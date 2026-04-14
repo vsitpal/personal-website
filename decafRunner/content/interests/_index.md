@@ -17,6 +17,8 @@ Here are some research papers I have been reading and found them interesting!
 
 * [A Hot Take on the Intel Analytics Accelerator for Database Management Systems](https://db.cs.cmu.edu/papers/2025/laspias-adms2025.pdf)
 
+* [Rethinking Analytical Processing in the GPU Era](https://vldb.org/cidrdb/papers/2026/p12-yogatama.pdf)
+
 #### **Machine Learning**
 
 * [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/pdf/2504.19413)
@@ -26,6 +28,8 @@ Here are some research papers I have been reading and found them interesting!
 * [Meta-Harness: End-to-End Optimization of Model Harnesses](https://www.alphaxiv.org/abs/2603.28052)
 
 * [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180)
+
+* [BEAVER: An Enterprise Benchmark for Text-to-SQL](https://arxiv.org/pdf/2409.02038)
 
 ### **Books**
 
