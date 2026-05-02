@@ -2487,6 +2487,11 @@ blockquote {
     bottom: -16%;
   }
 
+  #l5 {
+    top: 110px;
+    right: -330px;
+  }
+
   .wall-card-body {
     min-height: 170px;
   }
