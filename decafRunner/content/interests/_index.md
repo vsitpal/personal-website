@@ -58,3 +58,5 @@ Here are some research papers I have been reading and found them interesting!
 
 * [The Biology of Belief: Unleashing the Power of Consciousness, Matter and Miracles](https://www.goodreads.com/book/show/90556.The_Biology_of_Belief)
 
+* [Autobiography of a Yogi](https://www.goodreads.com/book/show/639864.Autobiography_of_a_Yogi)
+

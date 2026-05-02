@@ -36,76 +36,76 @@ skill:
   item:
     - title: OS Kernel Development
       progress: 60%
-      color: "#2f6b75"
+      color: "#1f7882"
     - title: Storage Systems
       progress: 60%
-      color: "#2f6b75"
+      color: "#1f7882"
     - title: Distributed Systems
       progress: 60%
-      color: "#2f6b75"
+      color: "#1f7882"
     - title: Embedded Systems
       progress: 60%
-      color: "#2f6b75"
+      color: "#1f7882"
     - title: Network Systems
       progress: 60%
-      color: "#2f6b75"
+      color: "#1f7882"
     - title: Database Systems
       progress: 70%
-      color: "#2f6b75"
+      color: "#1f7882"
     - title: Formal Verification
       progress: 30%
-      color: "#2f6b75"
+      color: "#1f7882"
     - title: C
       progress: 90%
-      color: "#526d8a"
+      color: "#3f7298"
     - title: Rust
       progress: 30%
-      color: "#526d8a"
+      color: "#3f7298"
     - title: CUDA
       progress: 70%
-      color: "#526d8a"
+      color: "#3f7298"
     - title: Python3
       progress: 90%
-      color: "#526d8a"
+      color: "#3f7298"
     - title: Go
       progress: 70%
-      color: "#526d8a"
+      color: "#3f7298"
     - title: C++
       progress: 80%
-      color: "#526d8a"
+      color: "#3f7298"
     - title: Dafny
       progress: 45%
-      color: "#526d8a"
+      color: "#3f7298"
     - title: Git
       progress: 80%
-      color: "#b07b4f"
+      color: "#a7603a"
     - title: " Filesystem in Userspace (FUSE)"
       progress: 80%
-      color: "#b07b4f"
+      color: "#a7603a"
     - title: GDB, Make, Lex/Yacc
       progress: 80%
-      color: "#b07b4f"
+      color: "#a7603a"
     - title: Systems Performance Instrumentation
       progress: 70%
-      color: "#b07b4f"
+      color: "#a7603a"
     - title: " eBPF"
       progress: 90%
-      color: "#b07b4f"
+      color: "#a7603a"
     - title: Observability
       progress: 70%
-      color: "#b07b4f"
+      color: "#a7603a"
     - title: Machine Learning
       progress: 60%
-      color: "#667c66"
+      color: "#4f8053"
     - title: Large Language Models
       progress: 70%
-      color: "#667c66"
+      color: "#4f8053"
     - title: GenAI Infrastructure
       progress: 60%
-      color: "#667c66"
+      color: "#4f8053"
     - title: Agents and Harnesses
       progress: 70%
-      color: "#667c66"
+      color: "#4f8053"
 experience:
   enable: true
   title: Work Experience
